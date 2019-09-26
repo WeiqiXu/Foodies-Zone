@@ -69,6 +69,6 @@ app.use("/recipes", recipeRoutes);
 app.use("/recipes/:id/comments", commentRoutes);
 app.use("/recipes/:id/reviews", reviewRoutes);
 
-app.listen(process.env.PORT=3000, process.env.IP, function(){
+app.listen(process.env.PORT || 3000, process.env.IP, function(){
 	console.log("My blog has started !!!");
 });
