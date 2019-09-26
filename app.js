@@ -18,8 +18,20 @@ var commentRoutes = require("./routes/comments"),
 	recipeRoutes = require("./routes/recipes"),
 	indexRoutes = require("./routes/index");
 
-// create a database
-mongoose.connect("mongodb://localhost:27017/FoodiesZone", {useNewUrlParser: true, useUnifiedTopology: true}); 
+// CREATE A DATABASE
+// connect to local db
+//mongoose.connect("mongodb://localhost:27017/FoodiesZone", {useNewUrlParser: true, useUnifiedTopology: true}); 
+// connect to MongoDB Atlas
+const password = process.env.MONGOOSEPASSWORD;
+mongoose.connect("mongodb+srv://Weiqi:"+password+"@cluster0-oykae.mongodb.net/test?retryWrites=true&w=majority", {
+		useNewUrlParser: true,
+		useCreateIndex: true,
+		useUnifiedTopology: true
+	}).then(() => {
+		console.log("connected to MongoDB Atlas!");
+	}).catch(err => {
+		console.log("ERROR", err.message);
+	});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public")); // is safer to add __dirname
