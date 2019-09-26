@@ -6,6 +6,7 @@ var recipeSchema = new mongoose.Schema({
 	time: String,
 	image: String,
 	description: String,
+	createdAt: {type: Date, default: Date.now},
 	author: {
 		id: {
 			type: mongoose.Schema.Types.ObjectId,
@@ -18,7 +19,17 @@ var recipeSchema = new mongoose.Schema({
 			type: mongoose.Schema.Types.ObjectId,
          	ref: "Comment"
 		}
-	]
+	],
+	reviews: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Review"
+        }
+    ],
+    rating: {
+        type: Number,
+        default: 0
+    }
 });
 	
 

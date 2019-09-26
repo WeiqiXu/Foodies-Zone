@@ -1,3 +1,4 @@
+require('dotenv').config();
 var express = require("express"),
 	app = express(),
 	bodyParser = require("body-parser"),
@@ -13,6 +14,7 @@ var express = require("express"),
 
 // requiring route
 var commentRoutes = require("./routes/comments"),
+	reviewRoutes = require("./routes/reviews"),
 	recipeRoutes = require("./routes/recipes"),
 	indexRoutes = require("./routes/index");
 
@@ -24,6 +26,9 @@ app.use(express.static(__dirname + "/public")); // is safer to add __dirname
 app.use(methodOverride("_method"));
 app.use(flash()); // must be put before passport configuration
 // seedDB();
+
+// enabel moment in all of view files via variable named moment.
+app.locals.moment = require("moment");
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
@@ -50,6 +55,7 @@ app.use(function(req, res, next){
 app.use("/", indexRoutes);
 app.use("/recipes", recipeRoutes);
 app.use("/recipes/:id/comments", commentRoutes);
+app.use("/recipes/:id/reviews", reviewRoutes);
 
 app.listen(process.env.PORT=3000, process.env.IP, function(){
 	console.log("My blog has started !!!");

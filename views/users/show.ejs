@@ -1,0 +1,31 @@
+<% include ../partials/header %>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="thumbnail">
+			<h4><%= user.firstName + " " + user.lastName %></h4>
+			<img src="<%= user.avatar %>" alt="User profile image">
+			<div class="caption">
+				<a href="mailto:<%= user.email %>"><%= user.email %></a>
+			</div>
+		</div>
+		jaodihoiflkfihbobd
+	</div>	
+	<div class="col-md-8">
+		<h1><%= user.username + "'s recipes" %></h1>
+		<!-- 	list users' posts	  -->
+		<ul>
+			<% recipes.forEach(function(recipe) { %>
+				<li>
+					<div class="thumbnail">
+						<a href="/recipes/<%= recipe.id %>"><strong><%= recipe.name %></strong></a>
+						<img src="<%= recipe.image %>">
+					</div>
+				</li>
+			<% }); %>
+		</ul>
+	</div>
+</div>
+
+
+<% include ../partials/footer %>

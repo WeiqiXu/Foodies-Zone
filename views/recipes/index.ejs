@@ -1,33 +1,51 @@
 <% include ../partials/header %>
 
-<div class="container">
-	<header class="jumbotron"> 
-		<!-- add another div to create margin -->
-		<div class="container"> 
-			<h1>Recipes</h1> 
-			<p>Share your amazing recipes!</p>
-			<p>
-				<a class="btn btn-primary btn-lg" href="/recipes/new"> Add a new recipe! </a>
-			</p>
-		</div>
-	</header>
-	
-	<div class="row text-center" style="display:flex; flex-wrap: wrap;">
-		<% recipes.forEach(function(recipe){ %>
-		<div class="col-md-4 col-sm-6">
-			<div class="thumbnail">
-				<img  class="img-responsive" class="img-responsive" src="<%= recipe.image %>">
-				<div class="caption">
-					<h4><%= recipe.name %></h4>
-				</div>
-				<p>
-					<a href="/recipes/<%= recipe._id %>" class="btn btn-primary">Dive in!</a>
-				</p>
-			</div>	
-		</div>
-<% }); %>
+
+<header class="jumbotron"> 
+	<!-- add another div to create margin -->
+	<div class="container"> 
+		<h1>Recipes</h1> 
+		<p>Share your amazing recipes!</p>
+		<p>
+			<a class="btn btn-primary btn-lg" href="/recipes/new"> Add a new recipe! </a>
+		</p>
 	</div>
+	<p>
+		<form action="/recipes" method="GET" class="form-inline">
+			<div class="form-group">
+				<input type="text" name="search" placeholder="Search Recipes" class="form-control">
+				<input type="submit" value="Search" class="btn btn-default">
+			</div>
+		</form>
+	</p>
+
+</header>
+
+<div class="row text-center" style="display:flex; flex-wrap: wrap;">
+	<% recipes.forEach(function(recipe){ %>
+	<div class="col-md-4 col-sm-6">
+		<div class="thumbnail">
+			<img  class="img-responsive" class="img-responsive" src="<%= recipe.image %>">
+			<div class="caption">
+				<h4><%= recipe.name %></h4>
+				<% if (recipe.rating === 0) { %>
+                    <em>No reviews yet.</em>
+                    <% } else { %>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star <% if (recipe.rating > 1.5) { %> checked <% } %>"></span>
+                    <span class="fa fa-star <% if (recipe.rating > 2.5) { %> checked <% } %>"></span>
+                    <span class="fa fa-star <% if (recipe.rating > 3.5) { %> checked <% } %>"></span>
+                    <span class="fa fa-star <% if (recipe.rating > 4.5) { %> checked <% } %>"></span>
+                <% } %>
+			</div>
+			<p>
+				<a href="/recipes/<%= recipe._id %>" class="btn btn-primary">Dive in!</a>
+			</p>
+		</div>	
+	</div>
+	<% }); %>
 </div>
+
 
 
 <% include ../partials/footer %>
