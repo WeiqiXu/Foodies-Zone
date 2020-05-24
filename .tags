@@ -1,0 +1,1132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABORT	node_modules/node-addon-api/src/node_internals.h	23;"	d	line:23
+ABORT_NO_BACKTRACE	node_modules/node-addon-api/src/node_internals.h	18;"	d	line:18
+ABORT_NO_BACKTRACE	node_modules/node-addon-api/src/node_internals.h	20;"	d	line:20
+Abort	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::Abort() {$/;"	f	line:3993	class:Napi::ThreadSafeFunction
+Abort	node_modules/node-addon-api/src/node_internals.cc	/^NO_RETURN void Abort() {$/;"	f	line:91	namespace:node
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^PropertyDescriptor::Accessor(const char* utf8name,$/;"	f	line:10	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Name name,$/;"	f	line:122	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Name name,$/;"	f	line:60	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(const char* utf8name,$/;"	f	line:69	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(const std::string& utf8name,$/;"	f	line:31	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(const std::string& utf8name,$/;"	f	line:91	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(napi_value name,$/;"	f	line:100	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(napi_value name,$/;"	f	line:39	class:PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.h	/^PropertyDescriptor::Accessor(Napi::Env env,$/;"	f	line:2649	class:Napi::PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Napi::Env env,$/;"	f	line:2677	class:Napi::PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Napi::Env env,$/;"	f	line:2687	class:Napi::PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Napi::Env env,$/;"	f	line:2715	class:Napi::PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Napi::Env env,$/;"	f	line:2744	class:Napi::PropertyDescriptor
+Accessor	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Accessor(Napi::Env env,$/;"	f	line:2755	class:Napi::PropertyDescriptor
+AccessorCallbackData	node_modules/node-addon-api/napi-inl.h	/^struct AccessorCallbackData {$/;"	s	line:203	namespace:Napi::details
+AccessorCallbackData	node_modules/node-addon-api/napi.h	/^    struct AccessorCallbackData {$/;"	s	line:1689	class:Napi::ObjectWrap
+Acquire	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::Acquire() const {$/;"	f	line:3985	class:Napi::ThreadSafeFunction
+AdjustExternalMemory	node_modules/node-addon-api/napi-inl.h	/^inline int64_t MemoryManagement::AdjustExternalMemory(Env env, int64_t change_in_bytes) {$/;"	f	line:4070	class:Napi::MemoryManagement
+ArgsLength	node_modules/node-addon-api/src/node_api.cc	/^  size_t ArgsLength() { return _args_length; }$/;"	f	line:540	class:__anon1::v8impl::CallbackWrapper
+Array	node_modules/node-addon-api/napi-inl.h	/^inline Array::Array() : Object() {$/;"	f	line:1218	class:Napi::Array
+Array	node_modules/node-addon-api/napi-inl.h	/^inline Array::Array(napi_env env, napi_value value) : Object(env, value) {$/;"	f	line:1221	class:Napi::Array
+Array	node_modules/node-addon-api/napi.h	/^  class Array : public Object {$/;"	c	line:713	namespace:Napi
+ArrayBuffer	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer::ArrayBuffer() : Object(), _data(nullptr), _length(0) {$/;"	f	line:1302	class:Napi::ArrayBuffer
+ArrayBuffer	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer::ArrayBuffer(napi_env env, napi_value value)$/;"	f	line:1305	class:Napi::ArrayBuffer
+ArrayBuffer	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer::ArrayBuffer(napi_env env, napi_value value, void* data, size_t length)$/;"	f	line:1309	class:Napi::ArrayBuffer
+ArrayBuffer	node_modules/node-addon-api/napi-inl.h	/^inline Napi::ArrayBuffer DataView::ArrayBuffer() const {$/;"	f	line:1382	class:Napi::DataView
+ArrayBuffer	node_modules/node-addon-api/napi-inl.h	/^inline Napi::ArrayBuffer TypedArray::ArrayBuffer() const {$/;"	f	line:1575	class:Napi::TypedArray
+ArrayBuffer	node_modules/node-addon-api/napi.h	/^  class ArrayBuffer : public Object {$/;"	c	line:725	namespace:Napi
+As	node_modules/node-addon-api/napi-inl.h	/^inline T Value::As() const {$/;"	f	line:469	class:Napi::Value
+Assert	node_modules/node-addon-api/src/node_internals.cc	/^NO_RETURN void Assert(const char* const (*args)[4]) {$/;"	f	line:97	namespace:node
+AsyncContext	node_modules/node-addon-api/napi-inl.h	/^inline AsyncContext::AsyncContext(AsyncContext&& other) {$/;"	f	line:3526	class:Napi::AsyncContext
+AsyncContext	node_modules/node-addon-api/napi-inl.h	/^inline AsyncContext::AsyncContext(napi_env env, const char* resource_name)$/;"	f	line:3501	class:Napi::AsyncContext
+AsyncContext	node_modules/node-addon-api/napi-inl.h	/^inline AsyncContext::AsyncContext(napi_env env,$/;"	f	line:3505	class:Napi::AsyncContext
+AsyncContext	node_modules/node-addon-api/napi.h	/^  class AsyncContext {$/;"	c	line:1748	namespace:Napi
+AsyncResource	node_modules/node-addon-api/src/node_internals.cc	/^AsyncResource::AsyncResource(v8::Isolate* isolate,$/;"	f	line:33	class:node::AsyncResource
+AsyncResource	node_modules/node-addon-api/src/node_internals.h	/^class AsyncResource {$/;"	c	line:116	namespace:node
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(AsyncWorker&& other) {$/;"	f	line:3636	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(Napi::Env env)$/;"	f	line:3599	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(Napi::Env env,$/;"	f	line:3603	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(Napi::Env env,$/;"	f	line:3608	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(const Function& callback)$/;"	f	line:3549	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(const Function& callback,$/;"	f	line:3553	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(const Function& callback,$/;"	f	line:3558	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(const Object& receiver,$/;"	f	line:3567	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(const Object& receiver,$/;"	f	line:3572	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::AsyncWorker(const Object& receiver,$/;"	f	line:3581	class:Napi::AsyncWorker
+AsyncWorker	node_modules/node-addon-api/napi.h	/^  class AsyncWorker {$/;"	c	line:1766	namespace:Napi
+AttachData	node_modules/node-addon-api/napi-inl.h	/^static inline napi_status AttachData(napi_env env,$/;"	f	line:25	namespace:Napi::details
+BIN	node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m	line:6
+BIN	node_modules/method-override/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m	line:6
+BIN	node_modules/mquery/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m	line:6
+BROWSERIFY	node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m	line:16
+BROWSERIFY	node_modules/method-override/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m	line:16
+BROWSERIFY	node_modules/mquery/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m	line:16
+BigInt	node_modules/node-addon-api/napi-inl.h	/^inline BigInt::BigInt() : Value() {$/;"	f	line:626	class:Napi::BigInt
+BigInt	node_modules/node-addon-api/napi-inl.h	/^inline BigInt::BigInt(napi_env env, napi_value value) : Value(env, value) {$/;"	f	line:629	class:Napi::BigInt
+BigInt	node_modules/node-addon-api/napi.h	/^  class BigInt : public Value {$/;"	c	line:322	namespace:Napi
+BigInt64Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<int64_t> BigInt64Array;   \/\/\/< Typed array of signed 64-bit integers$/;"	t	line:142	namespace:Napi
+BigUint64Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<uint64_t> BigUint64Array; \/\/\/< Typed array of unsigned 64-bit integers$/;"	t	line:143	namespace:Napi
+BindLifecycleTo	node_modules/node-addon-api/src/node_api.cc	/^  void BindLifecycleTo(v8::Isolate* isolate, v8::Local<v8::Value> target) {$/;"	f	line:504	struct:__anon1::v8impl::CallbackBundle
+BlockingCall	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::BlockingCall($/;"	f	line:3952	class:Napi::ThreadSafeFunction
+BlockingCall	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::BlockingCall($/;"	f	line:3958	class:Napi::ThreadSafeFunction
+BlockingCall	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::BlockingCall() const {$/;"	f	line:3947	class:Napi::ThreadSafeFunction
+Boolean	node_modules/node-addon-api/napi-inl.h	/^inline Boolean::Boolean() : Napi::Value() {$/;"	f	line:512	class:Napi::Boolean
+Boolean	node_modules/node-addon-api/napi-inl.h	/^inline Boolean::Boolean(napi_env env, napi_value value) : Napi::Value(env, value) {$/;"	f	line:515	class:Napi::Boolean
+Boolean	node_modules/node-addon-api/napi.h	/^  class Boolean : public Value {$/;"	c	line:280	namespace:Napi
+Buffer	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T>::Buffer() : Uint8Array(), _length(0), _data(nullptr) {$/;"	f	line:1901	class:Napi::Buffer
+Buffer	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T>::Buffer(napi_env env, napi_value value)$/;"	f	line:1905	class:Napi::Buffer
+Buffer	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T>::Buffer(napi_env env, napi_value value, size_t length, T* data)$/;"	f	line:1910	class:Napi::Buffer
+Buffer	node_modules/node-addon-api/napi.h	/^  class Buffer : public Uint8Array {$/;"	c	line:1024	namespace:Napi
+ByteLength	node_modules/node-addon-api/napi-inl.h	/^inline size_t ArrayBuffer::ByteLength() {$/;"	f	line:1318	class:Napi::ArrayBuffer
+ByteLength	node_modules/node-addon-api/napi-inl.h	/^inline size_t DataView::ByteLength() const {$/;"	f	line:1408	class:Napi::DataView
+ByteLength	node_modules/node-addon-api/napi-inl.h	/^inline size_t TypedArray::ByteLength() const {$/;"	f	line:1571	class:Napi::TypedArray
+ByteOffset	node_modules/node-addon-api/napi-inl.h	/^inline size_t DataView::ByteOffset() const {$/;"	f	line:1395	class:Napi::DataView
+ByteOffset	node_modules/node-addon-api/napi-inl.h	/^inline size_t TypedArray::ByteOffset() const {$/;"	f	line:1563	class:Napi::TypedArray
+CALL_UV	node_modules/node-addon-api/src/node_api.cc	3500;"	d	line:3500	file:
+CHANGELOG_ERROR	node_modules/is-date-object/Makefile	/^CHANGELOG_ERROR = $(error No CHANGELOG specified)$/;"	m	line:37
+CHANGELOG_ERROR	node_modules/is-regex/Makefile	/^CHANGELOG_ERROR = $(error No CHANGELOG specified)$/;"	m	line:37
+CHECK	node_modules/node-addon-api/src/node_internals.h	38;"	d	line:38
+CHECK_ARG	node_modules/node-addon-api/src/node_api.cc	71;"	d	line:71	file:
+CHECK_ENV	node_modules/node-addon-api/src/node_api.cc	66;"	d	line:66	file:
+CHECK_EQ	node_modules/node-addon-api/src/node_internals.h	47;"	d	line:47
+CHECK_GE	node_modules/node-addon-api/src/node_internals.h	48;"	d	line:48
+CHECK_GT	node_modules/node-addon-api/src/node_internals.h	49;"	d	line:49
+CHECK_LE	node_modules/node-addon-api/src/node_internals.h	50;"	d	line:50
+CHECK_LT	node_modules/node-addon-api/src/node_internals.h	51;"	d	line:51
+CHECK_MAYBE_EMPTY	node_modules/node-addon-api/src/node_api.cc	74;"	d	line:74	file:
+CHECK_MAYBE_NOTHING	node_modules/node-addon-api/src/node_api.cc	77;"	d	line:77	file:
+CHECK_NE	node_modules/node-addon-api/src/node_internals.h	52;"	d	line:52
+CHECK_NEW_FROM_UTF8	node_modules/node-addon-api/src/node_api.cc	135;"	d	line:135	file:
+CHECK_NEW_FROM_UTF8_LEN	node_modules/node-addon-api/src/node_api.cc	121;"	d	line:121	file:
+CHECK_TO_BOOL	node_modules/node-addon-api/src/node_api.cc	113;"	d	line:113	file:
+CHECK_TO_FUNCTION	node_modules/node-addon-api/src/node_api.cc	96;"	d	line:96	file:
+CHECK_TO_NUMBER	node_modules/node-addon-api/src/node_api.cc	110;"	d	line:110	file:
+CHECK_TO_OBJECT	node_modules/node-addon-api/src/node_api.cc	104;"	d	line:104	file:
+CHECK_TO_STRING	node_modules/node-addon-api/src/node_api.cc	107;"	d	line:107	file:
+CHECK_TO_TYPE	node_modules/node-addon-api/src/node_api.cc	88;"	d	line:88	file:
+CREATE_TYPED_ARRAY	node_modules/node-addon-api/src/node_api.cc	150;"	d	line:150	file:
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::Call($/;"	f	line:2500	class:Napi::FunctionReference
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::Call($/;"	f	line:2510	class:Napi::FunctionReference
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::Call($/;"	f	line:2520	class:Napi::FunctionReference
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::Call(const std::initializer_list<napi_value>& args) const {$/;"	f	line:2482	class:Napi::FunctionReference
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::Call(const std::vector<napi_value>& args) const {$/;"	f	line:2491	class:Napi::FunctionReference
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::Call(const std::initializer_list<napi_value>& args) const {$/;"	f	line:1718	class:Napi::Function
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::Call(const std::vector<napi_value>& args) const {$/;"	f	line:1722	class:Napi::Function
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::Call(napi_value recv, const std::initializer_list<napi_value>& args) const {$/;"	f	line:1730	class:Napi::Function
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::Call(napi_value recv, const std::vector<napi_value>& args) const {$/;"	f	line:1734	class:Napi::Function
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::Call(napi_value recv, size_t argc, const napi_value* args) const {$/;"	f	line:1738	class:Napi::Function
+Call	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::Call(size_t argc, const napi_value* args) const {$/;"	f	line:1726	class:Napi::Function
+CallInternal	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::CallInternal($/;"	f	line:4035	class:Napi::ThreadSafeFunction
+CallJS	node_modules/node-addon-api/napi-inl.h	/^inline void ThreadSafeFunction::CallJS(napi_env env,$/;"	f	line:4048	class:Napi::ThreadSafeFunction
+Callback	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference& AsyncWorker::Callback() {$/;"	f	line:3681	class:Napi::AsyncWorker
+CallbackBundle	node_modules/node-addon-api/src/node_api.cc	/^struct CallbackBundle {$/;"	s	line:501	namespace:__anon1::v8impl	file:
+CallbackData	node_modules/node-addon-api/napi-inl.h	/^struct CallbackData {$/;"	s	line:74	namespace:Napi::details
+CallbackData	node_modules/node-addon-api/napi-inl.h	/^struct CallbackData<Callable, void> {$/;"	s	line:91	namespace:Napi::details
+CallbackInfo	node_modules/node-addon-api/napi-inl.h	/^inline CallbackInfo::CallbackInfo(napi_env env, napi_callback_info info)$/;"	f	line:2581	class:Napi::CallbackInfo
+CallbackInfo	node_modules/node-addon-api/napi.h	/^  class CallbackInfo {$/;"	c	line:1340	namespace:Napi
+CallbackScope	node_modules/node-addon-api/napi-inl.h	/^inline CallbackScope::CallbackScope($/;"	f	line:3473	class:Napi::CallbackScope
+CallbackScope	node_modules/node-addon-api/napi-inl.h	/^inline CallbackScope::CallbackScope(napi_env env, napi_async_context context)$/;"	f	line:3477	class:Napi::CallbackScope
+CallbackScope	node_modules/node-addon-api/napi.h	/^  class CallbackScope {$/;"	c	line:1732	namespace:Napi
+CallbackScope	node_modules/node-addon-api/src/node_internals.cc	/^CallbackScope::CallbackScope(void *work) {$/;"	f	line:14	class:CallbackScope
+CallbackScope	node_modules/node-addon-api/src/node_internals.h	/^class CallbackScope {$/;"	c	line:65
+CallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^  CallbackWrapper(napi_value this_arg, size_t args_length, void* data)$/;"	f	line:531	class:__anon1::v8impl::CallbackWrapper
+CallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^class CallbackWrapper {$/;"	c	line:529	namespace:__anon1::v8impl	file:
+CallbackWrapperBase	node_modules/node-addon-api/src/node_api.cc	/^  CallbackWrapperBase(const Info& cbinfo, const size_t args_length)$/;"	f	line:553	class:__anon1::v8impl::CallbackWrapperBase
+CallbackWrapperBase	node_modules/node-addon-api/src/node_api.cc	/^class CallbackWrapperBase : public CallbackWrapper {$/;"	c	line:551	namespace:__anon1::v8impl	file:
+Cancel	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::Cancel() {$/;"	f	line:3672	class:Napi::AsyncWorker
+ClassPropertyDescriptor	node_modules/node-addon-api/napi.h	/^    ClassPropertyDescriptor(napi_property_descriptor desc) : _desc(desc) {}$/;"	f	line:1535	class:Napi::ClassPropertyDescriptor
+ClassPropertyDescriptor	node_modules/node-addon-api/napi.h	/^  class ClassPropertyDescriptor {$/;"	c	line:1533	namespace:Napi
+CompleteCallback	node_modules/node-addon-api/src/node_api.cc	/^  static void CompleteCallback(uv_work_t* req, int status) {$/;"	f	line:3460	class:__anon2::uvimpl::Work
+ConcludeDeferred	node_modules/node-addon-api/src/node_api.cc	/^napi_status ConcludeDeferred(napi_env env,$/;"	f	line:842	namespace:__anon1::v8impl
+ConstructorCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::ConstructorCallbackWrapper($/;"	f	line:3265	class:Napi::ObjectWrap
+ConvertUVErrorCode	node_modules/node-addon-api/src/node_api.cc	/^static napi_status ConvertUVErrorCode(int code) {$/;"	f	line:3405	namespace:__anon2::uvimpl
+ConvertibleContext	node_modules/node-addon-api/napi.h	/^    struct ConvertibleContext$/;"	s	line:1997	class:Napi::ThreadSafeFunction
+Copy	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T> Buffer<T>::Copy(napi_env env, const T* data, size_t length) {$/;"	f	line:1892	class:Napi::Buffer
+CreateAccessorCallbackData	node_modules/node-addon-api/src/node_api.cc	/^v8::Local<v8::Value> CreateAccessorCallbackData(napi_env env,$/;"	f	line:723	namespace:__anon1::v8impl
+CreateFunction	node_modules/node-addon-api/napi-inl.h	/^CreateFunction(napi_env env,$/;"	f	line:1663	namespace:Napi
+CreateFunctionCallbackData	node_modules/node-addon-api/src/node_api.cc	/^v8::Local<v8::Value> CreateFunctionCallbackData(napi_env env,$/;"	f	line:706	namespace:__anon1::v8impl
+Data	node_modules/node-addon-api/napi-inl.h	/^inline T* Buffer<T>::Data() const {$/;"	f	line:1921	class:Napi::Buffer
+Data	node_modules/node-addon-api/napi-inl.h	/^inline T* External<T>::Data() const {$/;"	f	line:1193	class:Napi::External
+Data	node_modules/node-addon-api/napi-inl.h	/^inline T* TypedArrayOf<T>::Data() {$/;"	f	line:1648	class:Napi::TypedArrayOf
+Data	node_modules/node-addon-api/napi-inl.h	/^inline const T* TypedArrayOf<T>::Data() const {$/;"	f	line:1653	class:Napi::TypedArrayOf
+Data	node_modules/node-addon-api/napi-inl.h	/^inline void* ArrayBuffer::Data() {$/;"	f	line:1313	class:Napi::ArrayBuffer
+Data	node_modules/node-addon-api/napi-inl.h	/^inline void* CallbackInfo::Data() const {$/;"	f	line:2635	class:Napi::CallbackInfo
+Data	node_modules/node-addon-api/napi-inl.h	/^inline void* DataView::Data() const {$/;"	f	line:1412	class:Napi::DataView
+Data	node_modules/node-addon-api/src/node_api.cc	/^  void* Data() { return _data; }$/;"	f	line:542	class:__anon1::v8impl::CallbackWrapper
+DataView	node_modules/node-addon-api/napi-inl.h	/^inline DataView::DataView() : Object() {$/;"	f	line:1368	class:Napi::DataView
+DataView	node_modules/node-addon-api/napi-inl.h	/^inline DataView::DataView(napi_env env, napi_value value) : Object(env, value) {$/;"	f	line:1371	class:Napi::DataView
+DataView	node_modules/node-addon-api/napi.h	/^  class DataView : public Object {$/;"	c	line:906	namespace:Napi
+Deferred	node_modules/node-addon-api/napi-inl.h	/^inline Promise::Deferred::Deferred(napi_env env) : _env(env) {$/;"	f	line:1796	class:Napi::Promise::Deferred
+Deferred	node_modules/node-addon-api/napi.h	/^    class Deferred {$/;"	c	line:1003	class:Napi::Promise
+DefineClass	node_modules/node-addon-api/napi-inl.h	/^ObjectWrap<T>::DefineClass(Napi::Env env,$/;"	f	line:2901	class:Napi::ObjectWrap
+DefineClass	node_modules/node-addon-api/napi-inl.h	/^inline Function ObjectWrap<T>::DefineClass($/;"	f	line:2989	class:Napi::ObjectWrap
+DefineClass	node_modules/node-addon-api/napi-inl.h	/^inline Function ObjectWrap<T>::DefineClass($/;"	f	line:3002	class:Napi::ObjectWrap
+DefineProperties	node_modules/node-addon-api/napi-inl.h	/^inline void Object::DefineProperties(const std::initializer_list<PropertyDescriptor>& properties) {$/;"	f	line:1110	class:Napi::Object
+DefineProperties	node_modules/node-addon-api/napi-inl.h	/^inline void Object::DefineProperties(const std::vector<PropertyDescriptor>& properties) {$/;"	f	line:1116	class:Napi::Object
+DefineProperty	node_modules/node-addon-api/napi-inl.h	/^inline void Object::DefineProperty(const PropertyDescriptor& property) {$/;"	f	line:1104	class:Napi::Object
+Delete	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Delete(Value key) {$/;"	f	line:1054	class:Napi::Object
+Delete	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Delete(const char* utf8name) {$/;"	f	line:1061	class:Napi::Object
+Delete	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Delete(const std::string& utf8name) {$/;"	f	line:1065	class:Napi::Object
+Delete	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Delete(napi_value key) {$/;"	f	line:1047	class:Napi::Object
+Delete	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Delete(uint32_t index) {$/;"	f	line:1090	class:Napi::Object
+Delete	node_modules/node-addon-api/src/node_api.cc	/^  static void Delete(Finalizer* finalizer) {$/;"	f	line:340	class:__anon1::v8impl::Finalizer
+Delete	node_modules/node-addon-api/src/node_api.cc	/^  static void Delete(Reference* reference) {$/;"	f	line:413	class:__anon1::v8impl::Reference
+Delete	node_modules/node-addon-api/src/node_api.cc	/^  static void Delete(Work* work) {$/;"	f	line:3451	class:__anon2::uvimpl::Work
+DeleteEnv	node_modules/node-addon-api/src/node_api.cc	/^static void DeleteEnv(napi_env env, void* data, void* hint) {$/;"	f	line:777	namespace:__anon1::v8impl
+Destroy	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::Destroy() {$/;"	f	line:3632	class:Napi::AsyncWorker
+DoubleValue	node_modules/node-addon-api/napi-inl.h	/^inline double Number::DoubleValue() const {$/;"	f	line:591	class:Napi::Number
+DumpBacktrace	node_modules/node-addon-api/src/node_internals.cc	/^void DumpBacktrace(FILE* fp) {$/;"	f	line:88	namespace:node
+ENV_OBJECT_TEMPLATE	node_modules/node-addon-api/src/node_api.cc	47;"	d	line:47	file:
+EXTERNAL_NAPI	node_modules/node-addon-api/external-napi/node_api.h	4;"	d	line:4
+EXTERNAL_NODE_API_H_	node_modules/node-addon-api/external-napi/node_api.h	2;"	d	line:2
+EXTERN_C_END	node_modules/node-addon-api/src/node_api.h	77;"	d	line:77
+EXTERN_C_END	node_modules/node-addon-api/src/node_api.h	80;"	d	line:80
+EXTERN_C_START	node_modules/node-addon-api/src/node_api.h	76;"	d	line:76
+EXTERN_C_START	node_modules/node-addon-api/src/node_api.h	79;"	d	line:79
+ElementLength	node_modules/node-addon-api/napi-inl.h	/^inline size_t TypedArray::ElementLength() const {$/;"	f	line:1552	class:Napi::TypedArray
+ElementSize	node_modules/node-addon-api/napi-inl.h	/^inline uint8_t TypedArray::ElementSize() const {$/;"	f	line:1532	class:Napi::TypedArray
+EmitAsyncDestroy	node_modules/node-addon-api/src/node_internals.cc	/^void EmitAsyncDestroy(v8::Isolate* isolate,$/;"	f	line:29	namespace:node
+EmitAsyncInit	node_modules/node-addon-api/src/node_internals.cc	/^async_context EmitAsyncInit(v8::Isolate* isolate,$/;"	f	line:22	namespace:node
+EnsureInfo	node_modules/node-addon-api/napi-inl.h	/^inline void ArrayBuffer::EnsureInfo() const {$/;"	f	line:1323	class:Napi::ArrayBuffer
+EnsureInfo	node_modules/node-addon-api/napi-inl.h	/^inline void Buffer<T>::EnsureInfo() const {$/;"	f	line:1927	class:Napi::Buffer
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Env::Env(napi_env env) : _env(env) {$/;"	f	line:265	class:Napi::Env
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env AsyncWorker::Env() const {$/;"	f	line:3663	class:Napi::AsyncWorker
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env CallbackInfo::Env() const {$/;"	f	line:2616	class:Napi::CallbackInfo
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env CallbackScope::Env() const {$/;"	f	line:3492	class:Napi::CallbackScope
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env EscapableHandleScope::Env() const {$/;"	f	line:3456	class:Napi::EscapableHandleScope
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env HandleScope::Env() const {$/;"	f	line:3431	class:Napi::HandleScope
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env Promise::Deferred::Env() const {$/;"	f	line:1805	class:Napi::Promise::Deferred
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env Reference<T>::Env() const {$/;"	f	line:2231	class:Napi::Reference
+Env	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Env Value::Env() const {$/;"	f	line:339	class:Napi::Value
+Env	node_modules/node-addon-api/napi.h	/^  class Env {$/;"	c	line:162	namespace:Napi
+Error	node_modules/node-addon-api/napi-inl.h	/^inline Error::Error() : ObjectReference() {$/;"	f	line:2011	class:Napi::Error
+Error	node_modules/node-addon-api/napi-inl.h	/^inline Error::Error(Error&& other) : ObjectReference(std::move(other)) {$/;"	f	line:2024	class:Napi::Error
+Error	node_modules/node-addon-api/napi-inl.h	/^inline Error::Error(const Error& other) : ObjectReference(other) {$/;"	f	line:2032	class:Napi::Error
+Error	node_modules/node-addon-api/napi-inl.h	/^inline Error::Error(napi_env env, napi_value value) : ObjectReference(env, nullptr) {$/;"	f	line:2014	class:Napi::Error
+Error	node_modules/node-addon-api/napi.h	/^  class Error : public ObjectReference$/;"	c	line:1279	namespace:Napi
+EscapableHandleScope	node_modules/node-addon-api/napi-inl.h	/^inline EscapableHandleScope::EscapableHandleScope($/;"	f	line:3439	class:Napi::EscapableHandleScope
+EscapableHandleScope	node_modules/node-addon-api/napi-inl.h	/^inline EscapableHandleScope::EscapableHandleScope(Napi::Env env) : _env(env) {$/;"	f	line:3443	class:Napi::EscapableHandleScope
+EscapableHandleScope	node_modules/node-addon-api/napi.h	/^  class EscapableHandleScope {$/;"	c	line:1715	namespace:Napi
+EscapableHandleScopeWrapper	node_modules/node-addon-api/src/node_api.cc	/^  explicit EscapableHandleScopeWrapper(v8::Isolate* isolate)$/;"	f	line:224	class:__anon1::v8impl::EscapableHandleScopeWrapper
+EscapableHandleScopeWrapper	node_modules/node-addon-api/src/node_api.cc	/^class EscapableHandleScopeWrapper {$/;"	c	line:222	namespace:__anon1::v8impl	file:
+Escape	node_modules/node-addon-api/napi-inl.h	/^inline Value EscapableHandleScope::Escape(napi_value escapee) {$/;"	f	line:3460	class:Napi::EscapableHandleScope
+Escape	node_modules/node-addon-api/src/node_api.cc	/^  v8::Local<T> Escape(v8::Local<T> handle) {$/;"	f	line:230	class:__anon1::v8impl::EscapableHandleScopeWrapper
+ExecuteCallback	node_modules/node-addon-api/src/node_api.cc	/^  static void ExecuteCallback(uv_work_t* req) {$/;"	f	line:3455	class:__anon2::uvimpl::Work
+External	node_modules/node-addon-api/napi-inl.h	/^inline External<T>::External() : Value() {$/;"	f	line:1185	class:Napi::External
+External	node_modules/node-addon-api/napi-inl.h	/^inline External<T>::External(napi_env env, napi_value value) : Value(env, value) {$/;"	f	line:1189	class:Napi::External
+External	node_modules/node-addon-api/napi.h	/^  class External : public Value {$/;"	c	line:691	namespace:Napi
+FIXED_ONE_BYTE_STRING	node_modules/node-addon-api/src/util.h	4;"	d	line:4
+Fatal	node_modules/node-addon-api/napi-inl.h	/^inline NAPI_NO_RETURN void Error::Fatal(const char* location, const char* message) {$/;"	f	line:2007	class:Napi::Error
+FatalError	node_modules/node-addon-api/src/node_internals.cc	/^NO_RETURN void FatalError(const char* location, const char* message) {$/;"	f	line:129	namespace:node
+FinalizeBufferCallback	node_modules/node-addon-api/src/node_api.cc	/^  static void FinalizeBufferCallback(char* data, void* hint) {$/;"	f	line:345	class:__anon1::v8impl::Finalizer
+FinalizeCallback	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectWrap<T>::FinalizeCallback(napi_env \/*env*\/, void* data, void* \/*hint*\/) {$/;"	f	line:3405	class:Napi::ObjectWrap
+FinalizeCallback	node_modules/node-addon-api/src/node_api.cc	/^  static void FinalizeCallback(const v8::WeakCallbackInfo<Reference>& data) {$/;"	f	line:451	class:__anon1::v8impl::Reference	file:
+FinalizeData	node_modules/node-addon-api/napi-inl.h	/^struct FinalizeData {$/;"	s	line:109	namespace:Napi::details
+FinalizeFinalizeWrapperWithDataAndContext	node_modules/node-addon-api/napi-inl.h	/^  void FinalizeFinalizeWrapperWithDataAndContext(napi_env env,$/;"	f	line:180	struct:Napi::details::ThreadSafeFinalize
+FinalizeWrapperWithContext	node_modules/node-addon-api/napi-inl.h	/^  void FinalizeWrapperWithContext(napi_env env,$/;"	f	line:164	struct:Napi::details::ThreadSafeFinalize
+FinalizeWrapperWithData	node_modules/node-addon-api/napi-inl.h	/^  void FinalizeWrapperWithData(napi_env env,$/;"	f	line:148	struct:Napi::details::ThreadSafeFinalize
+Finalizer	node_modules/node-addon-api/src/node_api.cc	/^  Finalizer(napi_env env,$/;"	f	line:318	class:__anon1::v8impl::Finalizer
+Finalizer	node_modules/node-addon-api/src/node_api.cc	/^class Finalizer {$/;"	c	line:316	namespace:__anon1::v8impl	file:
+FindWrapper	node_modules/node-addon-api/src/node_api.cc	/^bool FindWrapper(v8::Local<v8::Object> obj,$/;"	f	line:748	namespace:__anon1::v8impl
+Float32Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<float> Float32Array;   \/\/\/< Typed-array of 32-bit floating-point values$/;"	t	line:137	namespace:Napi
+Float64Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<double> Float64Array;  \/\/\/< Typed-array of 64-bit floating-point values$/;"	t	line:138	namespace:Napi
+FloatValue	node_modules/node-addon-api/napi-inl.h	/^inline float Number::FloatValue() const {$/;"	f	line:587	class:Napi::Number
+ForApi	node_modules/node-addon-api/src/node_internals.cc	/^v8::Local<v8::Name> v8::Private::ForApi(v8::Isolate* isolate,$/;"	f	line:138	class:v8::Private
+From	node_modules/node-addon-api/napi-inl.h	/^  static Boolean From(napi_env env, bool value) {$/;"	f	line:804	struct:Napi::details::vf_number
+From	node_modules/node-addon-api/napi-inl.h	/^  static Number From(napi_env env, T value) {$/;"	f	line:797	struct:Napi::details::vf_number
+From	node_modules/node-addon-api/napi-inl.h	/^  static String From(napi_env env, const char* value) {$/;"	f	line:810	struct:Napi::details::vf_utf8_charp
+From	node_modules/node-addon-api/napi-inl.h	/^  static String From(napi_env env, const char16_t* value) {$/;"	f	line:816	struct:Napi::details::vf_utf16_charp
+From	node_modules/node-addon-api/napi-inl.h	/^  static String From(napi_env env, const std::string& value) {$/;"	f	line:821	struct:Napi::details::vf_utf8_string
+From	node_modules/node-addon-api/napi-inl.h	/^  static String From(napi_env env, const std::u16string& value) {$/;"	f	line:827	struct:Napi::details::vf_utf16_string
+From	node_modules/node-addon-api/napi-inl.h	/^  static Value From(napi_env env, const T& value) {$/;"	f	line:834	struct:Napi::details::vf_fallback
+From	node_modules/node-addon-api/napi-inl.h	/^String String::From(napi_env env, const T& value) {$/;"	f	line:868	class:Napi::String
+From	node_modules/node-addon-api/napi-inl.h	/^Value Value::From(napi_env env, const T& value) {$/;"	f	line:854	class:Napi::Value
+Function	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Function(Name name,$/;"	f	line:184	class:PropertyDescriptor
+Function	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Function(const char* utf8name,$/;"	f	line:132	class:PropertyDescriptor
+Function	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Function(const std::string& utf8name,$/;"	f	line:154	class:PropertyDescriptor
+Function	node_modules/node-addon-api/napi-inl.deprecated.h	/^inline PropertyDescriptor PropertyDescriptor::Function(napi_value name,$/;"	f	line:162	class:PropertyDescriptor
+Function	node_modules/node-addon-api/napi-inl.h	/^inline Function::Function() : Object() {$/;"	f	line:1708	class:Napi::Function
+Function	node_modules/node-addon-api/napi-inl.h	/^inline Function::Function(napi_env env, napi_value value) : Object(env, value) {$/;"	f	line:1711	class:Napi::Function
+Function	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Function(Napi::Env env,$/;"	f	line:2784	class:Napi::PropertyDescriptor
+Function	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Function(Napi::Env env,$/;"	f	line:2803	class:Napi::PropertyDescriptor
+Function	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Function(Napi::Env env,$/;"	f	line:2813	class:Napi::PropertyDescriptor
+Function	node_modules/node-addon-api/napi.h	/^  class Function : public Object {$/;"	c	line:956	namespace:Napi
+FunctionCallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^  explicit FunctionCallbackWrapper($/;"	f	line:595	class:__anon1::v8impl::FunctionCallbackWrapper
+FunctionCallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^class FunctionCallbackWrapper$/;"	c	line:586	namespace:__anon1::v8impl	file:
+FunctionReference	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference::FunctionReference(): Reference<Function>() {$/;"	f	line:2451	class:Napi::FunctionReference
+FunctionReference	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference::FunctionReference(FunctionReference&& other)$/;"	f	line:2467	class:Napi::FunctionReference
+FunctionReference	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference::FunctionReference(Reference<Function>&& other)$/;"	f	line:2458	class:Napi::FunctionReference
+FunctionReference	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference::FunctionReference(napi_env env, napi_ref ref)$/;"	f	line:2454	class:Napi::FunctionReference
+FunctionReference	node_modules/node-addon-api/napi.h	/^  class FunctionReference: public Reference<Function> {$/;"	c	line:1145	namespace:Napi
+GET_RETURN_STATUS	node_modules/node-addon-api/src/node_api.cc	138;"	d	line:138	file:
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value ObjectReference::Get(const char* utf8name) const {$/;"	f	line:2352	class:Napi::ObjectReference
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value ObjectReference::Get(const std::string& utf8name) const {$/;"	f	line:2357	class:Napi::ObjectReference
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value ObjectReference::Get(uint32_t index) const {$/;"	f	line:2412	class:Napi::ObjectReference
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::Get(Value key) const {$/;"	f	line:1003	class:Napi::Object
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::Get(const char* utf8name) const {$/;"	f	line:1010	class:Napi::Object
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::Get(const std::string& utf8name) const {$/;"	f	line:1017	class:Napi::Object
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::Get(napi_value key) const {$/;"	f	line:996	class:Napi::Object
+Get	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::Get(uint32_t index) const {$/;"	f	line:1076	class:Napi::Object
+Get	node_modules/node-addon-api/src/node_api.cc	/^  v8::Local<v8::Value> Get() {$/;"	f	line:442	class:__anon1::v8impl::Reference
+GetAndClearPendingException	node_modules/node-addon-api/napi-inl.h	/^inline Error Env::GetAndClearPendingException() {$/;"	f	line:300	class:Napi::Env
+GetContext	node_modules/node-addon-api/napi-inl.h	/^ThreadSafeFunction::GetContext() const {$/;"	f	line:3998	class:Napi::ThreadSafeFunction
+GetEnv	node_modules/node-addon-api/src/node_api.cc	/^napi_env GetEnv(v8::Local<v8::Context> context) {$/;"	f	line:782	namespace:__anon1::v8impl
+GetFloat32	node_modules/node-addon-api/napi-inl.h	/^inline float DataView::GetFloat32(size_t byteOffset) const {$/;"	f	line:1416	class:Napi::DataView
+GetFloat64	node_modules/node-addon-api/napi-inl.h	/^inline double DataView::GetFloat64(size_t byteOffset) const {$/;"	f	line:1420	class:Napi::DataView
+GetInt16	node_modules/node-addon-api/napi-inl.h	/^inline int16_t DataView::GetInt16(size_t byteOffset) const {$/;"	f	line:1428	class:Napi::DataView
+GetInt32	node_modules/node-addon-api/napi-inl.h	/^inline int32_t DataView::GetInt32(size_t byteOffset) const {$/;"	f	line:1432	class:Napi::DataView
+GetInt8	node_modules/node-addon-api/napi-inl.h	/^inline int8_t DataView::GetInt8(size_t byteOffset) const {$/;"	f	line:1424	class:Napi::DataView
+GetNapiVersion	node_modules/node-addon-api/napi-inl.h	/^inline uint32_t VersionManagement::GetNapiVersion(Env env) {$/;"	f	line:4081	class:Napi::VersionManagement
+GetNodeVersion	node_modules/node-addon-api/napi-inl.h	/^inline const napi_node_version* VersionManagement::GetNodeVersion(Env env) {$/;"	f	line:4088	class:Napi::VersionManagement
+GetPrivate	node_modules/node-addon-api/src/node_internals.h	149;"	d	line:149
+GetPropertyNames	node_modules/node-addon-api/napi-inl.h	/^inline Array Object::GetPropertyNames() const {$/;"	f	line:1097	class:Napi::Object
+GetResult	node_modules/node-addon-api/napi-inl.h	/^inline std::vector<napi_value> AsyncWorker::GetResult(Napi::Env \/*env*\/) {$/;"	f	line:3705	class:Napi::AsyncWorker
+GetUint16	node_modules/node-addon-api/napi-inl.h	/^inline uint16_t DataView::GetUint16(size_t byteOffset) const {$/;"	f	line:1440	class:Napi::DataView
+GetUint32	node_modules/node-addon-api/napi-inl.h	/^inline uint32_t DataView::GetUint32(size_t byteOffset) const {$/;"	f	line:1444	class:Napi::DataView
+GetUint8	node_modules/node-addon-api/napi-inl.h	/^inline uint8_t DataView::GetUint8(size_t byteOffset) const {$/;"	f	line:1436	class:Napi::DataView
+GetterCallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^  explicit GetterCallbackWrapper($/;"	f	line:642	class:__anon1::v8impl::GetterCallbackWrapper
+GetterCallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^class GetterCallbackWrapper$/;"	c	line:632	namespace:__anon1::v8impl	file:
+GetterWrapper	node_modules/node-addon-api/napi-inl.h	/^  napi_value GetterWrapper(napi_env env, napi_callback_info info) {$/;"	f	line:205	struct:Napi::details::AccessorCallbackData
+Global	node_modules/node-addon-api/napi-inl.h	/^inline Object Env::Global() const {$/;"	f	line:272	class:Napi::Env
+HandleScope	node_modules/node-addon-api/napi-inl.h	/^inline HandleScope::HandleScope(Napi::Env env) : _env(env) {$/;"	f	line:3418	class:Napi::HandleScope
+HandleScope	node_modules/node-addon-api/napi-inl.h	/^inline HandleScope::HandleScope(napi_env env, napi_handle_scope scope)$/;"	f	line:3414	class:Napi::HandleScope
+HandleScope	node_modules/node-addon-api/napi.h	/^  class HandleScope {$/;"	c	line:1700	namespace:Napi
+HandleScopeWrapper	node_modules/node-addon-api/src/node_api.cc	/^  explicit HandleScopeWrapper(v8::Isolate* isolate) : scope(isolate) {}$/;"	f	line:211	class:__anon1::v8impl::HandleScopeWrapper
+HandleScopeWrapper	node_modules/node-addon-api/src/node_api.cc	/^class HandleScopeWrapper {$/;"	c	line:209	namespace:__anon1::v8impl	file:
+Has	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Has(Value key) const {$/;"	f	line:953	class:Napi::Object
+Has	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Has(const char* utf8name) const {$/;"	f	line:960	class:Napi::Object
+Has	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Has(const std::string& utf8name) const {$/;"	f	line:967	class:Napi::Object
+Has	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Has(napi_value key) const {$/;"	f	line:946	class:Napi::Object
+Has	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::Has(uint32_t index) const {$/;"	f	line:1069	class:Napi::Object
+HasOwnProperty	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::HasOwnProperty(Value key) const {$/;"	f	line:978	class:Napi::Object
+HasOwnProperty	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::HasOwnProperty(const char* utf8name) const {$/;"	f	line:985	class:Napi::Object
+HasOwnProperty	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::HasOwnProperty(const std::string& utf8name) const {$/;"	f	line:992	class:Napi::Object
+HasOwnProperty	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::HasOwnProperty(napi_value key) const {$/;"	f	line:971	class:Napi::Object
+InstanceAccessor	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceAccessor($/;"	f	line:3183	class:Napi::ObjectWrap
+InstanceAccessor	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceAccessor($/;"	f	line:3202	class:Napi::ObjectWrap
+InstanceAccessorCallbackData	node_modules/node-addon-api/napi.h	/^      InstanceAccessorCallbackData;$/;"	t	line:1697	class:Napi::ObjectWrap
+InstanceGetterCallback	node_modules/node-addon-api/napi.h	/^    typedef Napi::Value (T::*InstanceGetterCallback)(const CallbackInfo& info);$/;"	t	line:1583	class:Napi::ObjectWrap::Napi
+InstanceGetterCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::InstanceGetterCallbackWrapper($/;"	f	line:3374	class:Napi::ObjectWrap
+InstanceMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceMethod($/;"	f	line:3117	class:Napi::ObjectWrap
+InstanceMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceMethod($/;"	f	line:3134	class:Napi::ObjectWrap
+InstanceMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceMethod($/;"	f	line:3150	class:Napi::ObjectWrap
+InstanceMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceMethod($/;"	f	line:3167	class:Napi::ObjectWrap
+InstanceMethodCallback	node_modules/node-addon-api/napi.h	/^    typedef Napi::Value (T::*InstanceMethodCallback)(const CallbackInfo& info);$/;"	t	line:1582	class:Napi::ObjectWrap::Napi
+InstanceMethodCallbackData	node_modules/node-addon-api/napi.h	/^    typedef MethodCallbackData<InstanceMethodCallback> InstanceMethodCallbackData;$/;"	t	line:1686	class:Napi::ObjectWrap
+InstanceMethodCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::InstanceMethodCallbackWrapper($/;"	f	line:3359	class:Napi::ObjectWrap
+InstanceOf	node_modules/node-addon-api/napi-inl.h	/^inline bool Object::InstanceOf(const Function& constructor) const {$/;"	f	line:1122	class:Napi::Object
+InstanceSetterCallback	node_modules/node-addon-api/napi.h	/^    typedef void (T::*InstanceSetterCallback)(const CallbackInfo& info, const Napi::Value& value);$/;"	t	line:1584	class:Napi::ObjectWrap
+InstanceSetterCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::InstanceSetterCallbackWrapper($/;"	f	line:3389	class:Napi::ObjectWrap
+InstanceValue	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceValue($/;"	f	line:3241	class:Napi::ObjectWrap
+InstanceValue	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::InstanceValue($/;"	f	line:3253	class:Napi::ObjectWrap
+InstanceVoidMethodCallback	node_modules/node-addon-api/napi.h	/^    typedef void (T::*InstanceVoidMethodCallback)(const CallbackInfo& info);$/;"	t	line:1581	class:Napi::ObjectWrap
+InstanceVoidMethodCallbackData	node_modules/node-addon-api/napi.h	/^    typedef MethodCallbackData<InstanceVoidMethodCallback> InstanceVoidMethodCallbackData;$/;"	t	line:1685	class:Napi::ObjectWrap
+InstanceVoidMethodCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::InstanceVoidMethodCallbackWrapper($/;"	f	line:3343	class:Napi::ObjectWrap
+Int16Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<int16_t> Int16Array;   \/\/\/< Typed-array of signed 16-bit integers$/;"	t	line:133	namespace:Napi
+Int32Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<int32_t> Int32Array;   \/\/\/< Typed-array of signed 32-bit integers$/;"	t	line:135	namespace:Napi
+Int32Value	node_modules/node-addon-api/napi-inl.h	/^inline int32_t Number::Int32Value() const {$/;"	f	line:566	class:Napi::Number
+Int64Value	node_modules/node-addon-api/napi-inl.h	/^inline int64_t BigInt::Int64Value(bool* lossless) const {$/;"	f	line:632	class:Napi::BigInt
+Int64Value	node_modules/node-addon-api/napi-inl.h	/^inline int64_t Number::Int64Value() const {$/;"	f	line:580	class:Napi::Number
+Int8Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<int8_t> Int8Array;     \/\/\/< Typed-array of signed 8-bit integers$/;"	t	line:131	namespace:Napi
+Invoke	node_modules/node-addon-api/src/node_api.cc	/^  static void Invoke(const v8::FunctionCallbackInfo<v8::Value>& info) {$/;"	f	line:590	class:__anon1::v8impl::FunctionCallbackWrapper
+Invoke	node_modules/node-addon-api/src/node_api.cc	/^  static void Invoke(v8::Local<v8::Name> property,$/;"	f	line:636	class:__anon1::v8impl::GetterCallbackWrapper
+Invoke	node_modules/node-addon-api/src/node_api.cc	/^  static void Invoke(v8::Local<v8::Name> property,$/;"	f	line:668	class:__anon1::v8impl::SetterCallbackWrapper
+InvokeCallback	node_modules/node-addon-api/src/node_api.cc	/^  void InvokeCallback() {$/;"	f	line:566	class:__anon1::v8impl::CallbackWrapperBase
+IsArray	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsArray() const {$/;"	f	line:390	class:Napi::Value
+IsArrayBuffer	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsArrayBuffer() const {$/;"	f	line:401	class:Napi::Value
+IsBigInt	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsBigInt() const {$/;"	f	line:377	class:Napi::Value
+IsBoolean	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsBoolean() const {$/;"	f	line:366	class:Napi::Value
+IsBuffer	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsBuffer() const {$/;"	f	line:453	class:Napi::Value
+IsConstructCall	node_modules/node-addon-api/napi-inl.h	/^inline bool CallbackInfo::IsConstructCall() const {$/;"	f	line:2612	class:Napi::CallbackInfo
+IsDataView	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsDataView() const {$/;"	f	line:442	class:Napi::Value
+IsEmpty	node_modules/node-addon-api/napi-inl.h	/^inline bool Reference<T>::IsEmpty() const {$/;"	f	line:2236	class:Napi::Reference
+IsEmpty	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsEmpty() const {$/;"	f	line:343	class:Napi::Value
+IsExceptionPending	node_modules/node-addon-api/napi-inl.h	/^inline bool Env::IsExceptionPending() const {$/;"	f	line:293	class:Napi::Env
+IsExternal	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsExternal() const {$/;"	f	line:464	class:Napi::Value
+IsFunction	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsFunction() const {$/;"	f	line:427	class:Napi::Value
+IsNull	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsNull() const {$/;"	f	line:362	class:Napi::Value
+IsNumber	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsNumber() const {$/;"	f	line:370	class:Napi::Value
+IsObject	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsObject() const {$/;"	f	line:423	class:Napi::Value
+IsPromise	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsPromise() const {$/;"	f	line:431	class:Napi::Value
+IsString	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsString() const {$/;"	f	line:382	class:Napi::Value
+IsSymbol	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsSymbol() const {$/;"	f	line:386	class:Napi::Value
+IsTypedArray	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsTypedArray() const {$/;"	f	line:412	class:Napi::Value
+IsUndefined	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::IsUndefined() const {$/;"	f	line:358	class:Napi::Value
+JsDeferredFromV8Persistent	node_modules/node-addon-api/src/node_api.cc	/^napi_deferred JsDeferredFromV8Persistent(v8::Persistent<v8::Value>* local) {$/;"	f	line:271	namespace:__anon1::v8impl
+JsEscapableHandleScopeFromV8EscapableHandleScope	node_modules/node-addon-api/src/node_api.cc	/^napi_escapable_handle_scope JsEscapableHandleScopeFromV8EscapableHandleScope($/;"	f	line:251	namespace:__anon1::v8impl
+JsHandleScopeFromV8HandleScope	node_modules/node-addon-api/src/node_api.cc	/^napi_handle_scope JsHandleScopeFromV8HandleScope(HandleScopeWrapper* s) {$/;"	f	line:241	namespace:__anon1::v8impl
+JsValueFromV8LocalValue	node_modules/node-addon-api/src/node_api.cc	/^napi_value JsValueFromV8LocalValue(v8::Local<v8::Value> local) {$/;"	f	line:281	namespace:__anon1::v8impl
+LIKELY	node_modules/node-addon-api/src/node_internals.h	26;"	d	line:26
+LIKELY	node_modules/node-addon-api/src/node_internals.h	30;"	d	line:30
+Length	node_modules/node-addon-api/napi-inl.h	/^inline size_t Buffer<T>::Length() const {$/;"	f	line:1915	class:Napi::Buffer
+Length	node_modules/node-addon-api/napi-inl.h	/^inline size_t CallbackInfo::Length() const {$/;"	f	line:2620	class:Napi::CallbackInfo
+Length	node_modules/node-addon-api/napi-inl.h	/^inline uint32_t Array::Length() const {$/;"	f	line:1224	class:Napi::Array
+MakeCallback	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::MakeCallback($/;"	f	line:2530	class:Napi::FunctionReference
+MakeCallback	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::MakeCallback($/;"	f	line:2542	class:Napi::FunctionReference
+MakeCallback	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::MakeCallback($/;"	f	line:2554	class:Napi::FunctionReference
+MakeCallback	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::MakeCallback($/;"	f	line:1746	class:Napi::Function
+MakeCallback	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::MakeCallback($/;"	f	line:1753	class:Napi::Function
+MakeCallback	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::MakeCallback($/;"	f	line:1760	class:Napi::Function
+MakeCallback	node_modules/node-addon-api/src/node_internals.cc	/^v8::MaybeLocal<v8::Value> MakeCallback(v8::Isolate* isolate,$/;"	f	line:42	namespace:node
+MemoryManagement	node_modules/node-addon-api/napi.h	/^  class MemoryManagement {$/;"	c	line:2036	namespace:Napi
+MethodCallbackData	node_modules/node-addon-api/napi.h	/^    struct MethodCallbackData {$/;"	s	line:1679	class:Napi::ObjectWrap
+ModuleRegisterCallback	node_modules/node-addon-api/napi.h	/^  typedef Object (*ModuleRegisterCallback)(Env env, Object exports);$/;"	t	line:147	namespace:Napi
+NAPI_AUTO_LENGTH	node_modules/node-addon-api/src/node_api.h	103;"	d	line:103
+NAPI_CALL_INTO_MODULE	node_modules/node-addon-api/src/node_api.cc	166;"	d	line:166	file:
+NAPI_CALL_INTO_MODULE_THROW	node_modules/node-addon-api/src/node_api.cc	179;"	d	line:179	file:
+NAPI_CPP_EXCEPTIONS	node_modules/node-addon-api/napi.h	29;"	d	line:29
+NAPI_C_CTOR	node_modules/node-addon-api/src/node_api.h	64;"	d	line:64
+NAPI_C_CTOR	node_modules/node-addon-api/src/node_api.h	70;"	d	line:70
+NAPI_EXTERN	node_modules/node-addon-api/src/node_api.h	21;"	d	line:21
+NAPI_EXTERN	node_modules/node-addon-api/src/node_api.h	24;"	d	line:24
+NAPI_EXTERN	node_modules/node-addon-api/src/node_api.h	28;"	d	line:28
+NAPI_EXTERN	node_modules/node-addon-api/src/node_api.h	31;"	d	line:31
+NAPI_FATAL_IF_FAILED	node_modules/node-addon-api/napi.h	93;"	d	line:93
+NAPI_HAS_CONSTEXPR	node_modules/node-addon-api/napi.h	13;"	d	line:13
+NAPI_MODULE	node_modules/node-addon-api/src/node_api.h	100;"	d	line:100
+NAPI_MODULE_EXPORT	node_modules/node-addon-api/src/node_api.h	35;"	d	line:35
+NAPI_MODULE_EXPORT	node_modules/node-addon-api/src/node_api.h	37;"	d	line:37
+NAPI_MODULE_VERSION	node_modules/node-addon-api/src/node_api.h	60;"	d	line:60
+NAPI_MODULE_X	node_modules/node-addon-api/src/node_api.h	83;"	d	line:83
+NAPI_NOEXCEPT	node_modules/node-addon-api/napi.h	/^    const std::string& Message() const NAPI_NOEXCEPT;$/;"	m	line:1300	class:Napi::Error
+NAPI_NOEXCEPT	node_modules/node-addon-api/napi.h	37;"	d	line:37
+NAPI_NOEXCEPT	node_modules/node-addon-api/napi.h	39;"	d	line:39
+NAPI_NO_RETURN	node_modules/node-addon-api/src/node_api.h	41;"	d	line:41
+NAPI_NO_RETURN	node_modules/node-addon-api/src/node_api.h	43;"	d	line:43
+NAPI_PREAMBLE	node_modules/node-addon-api/src/node_api.cc	81;"	d	line:81	file:
+NAPI_THROW	node_modules/node-addon-api/napi.h	50;"	d	line:50
+NAPI_THROW	node_modules/node-addon-api/napi.h	67;"	d	line:67
+NAPI_THROW_IF_FAILED	node_modules/node-addon-api/napi.h	53;"	d	line:53
+NAPI_THROW_IF_FAILED	node_modules/node-addon-api/napi.h	79;"	d	line:79
+NAPI_THROW_IF_FAILED_VOID	node_modules/node-addon-api/napi.h	56;"	d	line:56
+NAPI_THROW_IF_FAILED_VOID	node_modules/node-addon-api/napi.h	85;"	d	line:85
+NAPI_THROW_VOID	node_modules/node-addon-api/napi.h	51;"	d	line:51
+NAPI_THROW_VOID	node_modules/node-addon-api/napi.h	73;"	d	line:73
+NAPI_VERSION	node_modules/node-addon-api/src/node_api.cc	21;"	d	line:21	file:
+NAPI_WIDE_TEXT	node_modules/node-addon-api/napi.h	20;"	d	line:20
+NAPI_WIDE_TEXT	node_modules/node-addon-api/napi.h	22;"	d	line:22
+NODE	node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m	line:13
+NODE	node_modules/method-override/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m	line:13
+NODE	node_modules/mquery/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m	line:13
+NODE_API_MODULE	node_modules/node-addon-api/napi-inl.h	242;"	d	line:242
+NODE_RELEASE	node_modules/node-addon-api/src/node_internals.h	61;"	d	line:61
+NO_RETURN	node_modules/node-addon-api/src/node_internals.h	55;"	d	line:55
+NO_RETURN	node_modules/node-addon-api/src/node_internals.h	57;"	d	line:57
+Name	node_modules/node-addon-api/napi-inl.h	/^inline Name::Name() : Value() {$/;"	f	line:667	class:Napi::Name
+Name	node_modules/node-addon-api/napi-inl.h	/^inline Name::Name(napi_env env, napi_value value) : Value(env, value) {$/;"	f	line:670	class:Napi::Name
+Name	node_modules/node-addon-api/napi.h	/^  class Name : public Value {$/;"	c	line:362	namespace:Napi
+Napi	node_modules/node-addon-api/napi-inl.h	/^namespace Napi {$/;"	n	line:15
+Napi	node_modules/node-addon-api/napi.h	/^namespace Napi {$/;"	n	line:107
+New	node_modules/node-addon-api/napi-inl.h	/^inline Array Array::New(napi_env env) {$/;"	f	line:1204	class:Napi::Array
+New	node_modules/node-addon-api/napi-inl.h	/^inline Array Array::New(napi_env env, size_t length) {$/;"	f	line:1211	class:Napi::Array
+New	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer ArrayBuffer::New(napi_env env, size_t byteLength) {$/;"	f	line:1235	class:Napi::ArrayBuffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer ArrayBuffer::New(napi_env env,$/;"	f	line:1244	class:Napi::ArrayBuffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer ArrayBuffer::New(napi_env env,$/;"	f	line:1256	class:Napi::ArrayBuffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline ArrayBuffer ArrayBuffer::New(napi_env env,$/;"	f	line:1279	class:Napi::ArrayBuffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline BigInt BigInt::New(napi_env env, int sign_bit, size_t word_count, const uint64_t* words) {$/;"	f	line:619	class:Napi::BigInt
+New	node_modules/node-addon-api/napi-inl.h	/^inline BigInt BigInt::New(napi_env env, int64_t val) {$/;"	f	line:605	class:Napi::BigInt
+New	node_modules/node-addon-api/napi-inl.h	/^inline BigInt BigInt::New(napi_env env, uint64_t val) {$/;"	f	line:612	class:Napi::BigInt
+New	node_modules/node-addon-api/napi-inl.h	/^inline Boolean Boolean::New(napi_env env, bool val) {$/;"	f	line:505	class:Napi::Boolean
+New	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T> Buffer<T>::New(napi_env env, T* data, size_t length) {$/;"	f	line:1836	class:Napi::Buffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T> Buffer<T>::New(napi_env env, size_t length) {$/;"	f	line:1827	class:Napi::Buffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T> Buffer<T>::New(napi_env env,$/;"	f	line:1846	class:Napi::Buffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline Buffer<T> Buffer<T>::New(napi_env env,$/;"	f	line:1869	class:Napi::Buffer
+New	node_modules/node-addon-api/napi-inl.h	/^inline DataView DataView::New(napi_env env,$/;"	f	line:1336	class:Napi::DataView
+New	node_modules/node-addon-api/napi-inl.h	/^inline DataView DataView::New(napi_env env,$/;"	f	line:1341	class:Napi::DataView
+New	node_modules/node-addon-api/napi-inl.h	/^inline DataView DataView::New(napi_env env,$/;"	f	line:1353	class:Napi::DataView
+New	node_modules/node-addon-api/napi-inl.h	/^inline Error Error::New(napi_env env) {$/;"	f	line:1945	class:Napi::Error
+New	node_modules/node-addon-api/napi-inl.h	/^inline Error Error::New(napi_env env, const char* message) {$/;"	f	line:1999	class:Napi::Error
+New	node_modules/node-addon-api/napi-inl.h	/^inline Error Error::New(napi_env env, const std::string& message) {$/;"	f	line:2003	class:Napi::Error
+New	node_modules/node-addon-api/napi-inl.h	/^inline External<T> External<T>::New(napi_env env, T* data) {$/;"	f	line:1134	class:Napi::External
+New	node_modules/node-addon-api/napi-inl.h	/^inline External<T> External<T>::New(napi_env env,$/;"	f	line:1143	class:Napi::External
+New	node_modules/node-addon-api/napi-inl.h	/^inline External<T> External<T>::New(napi_env env,$/;"	f	line:1164	class:Napi::External
+New	node_modules/node-addon-api/napi-inl.h	/^inline Function Function::New(napi_env env,$/;"	f	line:1678	class:Napi::Function
+New	node_modules/node-addon-api/napi-inl.h	/^inline Function Function::New(napi_env env,$/;"	f	line:1701	class:Napi::Function
+New	node_modules/node-addon-api/napi-inl.h	/^inline Number Number::New(napi_env env, double val) {$/;"	f	line:533	class:Napi::Number
+New	node_modules/node-addon-api/napi-inl.h	/^inline Object Function::New(const std::initializer_list<napi_value>& args) const {$/;"	f	line:1772	class:Napi::Function
+New	node_modules/node-addon-api/napi-inl.h	/^inline Object Function::New(const std::vector<napi_value>& args) const {$/;"	f	line:1776	class:Napi::Function
+New	node_modules/node-addon-api/napi-inl.h	/^inline Object Function::New(size_t argc, const napi_value* args) const {$/;"	f	line:1780	class:Napi::Function
+New	node_modules/node-addon-api/napi-inl.h	/^inline Object FunctionReference::New(const std::initializer_list<napi_value>& args) const {$/;"	f	line:2567	class:Napi::FunctionReference
+New	node_modules/node-addon-api/napi-inl.h	/^inline Object FunctionReference::New(const std::vector<napi_value>& args) const {$/;"	f	line:2572	class:Napi::FunctionReference
+New	node_modules/node-addon-api/napi-inl.h	/^inline Object Object::New(napi_env env) {$/;"	f	line:909	class:Napi::Object
+New	node_modules/node-addon-api/napi-inl.h	/^inline Promise::Deferred Promise::Deferred::New(napi_env env) {$/;"	f	line:1792	class:Napi::Promise::Deferred
+New	node_modules/node-addon-api/napi-inl.h	/^inline RangeError RangeError::New(napi_env env, const char* message) {$/;"	f	line:2125	class:Napi::RangeError
+New	node_modules/node-addon-api/napi-inl.h	/^inline RangeError RangeError::New(napi_env env, const std::string& message) {$/;"	f	line:2129	class:Napi::RangeError
+New	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T> Reference<T>::New(const T& value, uint32_t initialRefcount) {$/;"	f	line:2144	class:Napi::Reference
+New	node_modules/node-addon-api/napi-inl.h	/^inline String String::New(napi_env env, const char* val) {$/;"	f	line:685	class:Napi::String
+New	node_modules/node-addon-api/napi-inl.h	/^inline String String::New(napi_env env, const char* val, size_t length) {$/;"	f	line:699	class:Napi::String
+New	node_modules/node-addon-api/napi-inl.h	/^inline String String::New(napi_env env, const char16_t* val) {$/;"	f	line:692	class:Napi::String
+New	node_modules/node-addon-api/napi-inl.h	/^inline String String::New(napi_env env, const char16_t* val, size_t length) {$/;"	f	line:706	class:Napi::String
+New	node_modules/node-addon-api/napi-inl.h	/^inline String String::New(napi_env env, const std::string& val) {$/;"	f	line:677	class:Napi::String
+New	node_modules/node-addon-api/napi-inl.h	/^inline String String::New(napi_env env, const std::u16string& val) {$/;"	f	line:681	class:Napi::String
+New	node_modules/node-addon-api/napi-inl.h	/^inline Symbol Symbol::New(napi_env env, String description) {$/;"	f	line:768	class:Napi::Symbol
+New	node_modules/node-addon-api/napi-inl.h	/^inline Symbol Symbol::New(napi_env env, const char* description) {$/;"	f	line:757	class:Napi::Symbol
+New	node_modules/node-addon-api/napi-inl.h	/^inline Symbol Symbol::New(napi_env env, const std::string& description) {$/;"	f	line:763	class:Napi::Symbol
+New	node_modules/node-addon-api/napi-inl.h	/^inline Symbol Symbol::New(napi_env env, napi_value description) {$/;"	f	line:773	class:Napi::Symbol
+New	node_modules/node-addon-api/napi-inl.h	/^inline TError Error::New(napi_env env,$/;"	f	line:2096	class:Napi::Error
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3752	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3763	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3775	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3788	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3801	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3815	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3829	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3841	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3855	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3871	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3888	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:3906	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction ThreadSafeFunction::New(napi_env env,$/;"	f	line:4007	class:Napi::ThreadSafeFunction
+New	node_modules/node-addon-api/napi-inl.h	/^inline TypeError TypeError::New(napi_env env, const char* message) {$/;"	f	line:2111	class:Napi::TypeError
+New	node_modules/node-addon-api/napi-inl.h	/^inline TypeError TypeError::New(napi_env env, const std::string& message) {$/;"	f	line:2115	class:Napi::TypeError
+New	node_modules/node-addon-api/napi-inl.h	/^inline TypedArrayOf<T> TypedArrayOf<T>::New(napi_env env,$/;"	f	line:1588	class:Napi::TypedArrayOf
+New	node_modules/node-addon-api/napi-inl.h	/^inline TypedArrayOf<T> TypedArrayOf<T>::New(napi_env env,$/;"	f	line:1596	class:Napi::TypedArrayOf
+New	node_modules/node-addon-api/src/node_api.cc	/^  static Finalizer* New(napi_env env,$/;"	f	line:332	class:__anon1::v8impl::Finalizer
+New	node_modules/node-addon-api/src/node_api.cc	/^  static Reference* New(napi_env env,$/;"	f	line:397	class:__anon1::v8impl::Reference
+New	node_modules/node-addon-api/src/node_api.cc	/^  static Work* New(napi_env env,$/;"	f	line:3441	class:__anon2::uvimpl::Work
+NewTarget	node_modules/node-addon-api/napi-inl.h	/^inline Value CallbackInfo::NewTarget() const {$/;"	f	line:2605	class:Napi::CallbackInfo
+NewTarget	node_modules/node-addon-api/src/node_internals.h	140;"	d	line:140
+NonBlockingCall	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::NonBlockingCall($/;"	f	line:3971	class:Napi::ThreadSafeFunction
+NonBlockingCall	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::NonBlockingCall($/;"	f	line:3977	class:Napi::ThreadSafeFunction
+NonBlockingCall	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::NonBlockingCall() const {$/;"	f	line:3966	class:Napi::ThreadSafeFunction
+Null	node_modules/node-addon-api/napi-inl.h	/^inline Value Env::Null() const {$/;"	f	line:286	class:Napi::Env
+Number	node_modules/node-addon-api/napi-inl.h	/^inline Number::Number() : Value() {$/;"	f	line:540	class:Napi::Number
+Number	node_modules/node-addon-api/napi-inl.h	/^inline Number::Number(napi_env env, napi_value value) : Value(env, value) {$/;"	f	line:543	class:Napi::Number
+Number	node_modules/node-addon-api/napi.h	/^  class Number : public Value {$/;"	c	line:295	namespace:Napi
+Object	node_modules/node-addon-api/napi-inl.h	/^inline Object::Object() : Value() {$/;"	f	line:916	class:Napi::Object
+Object	node_modules/node-addon-api/napi-inl.h	/^inline Object::Object(napi_env env, napi_value value) : Value(env, value) {$/;"	f	line:919	class:Napi::Object
+Object	node_modules/node-addon-api/napi.h	/^  class Object : public Value {$/;"	c	line:464	namespace:Napi
+ObjectReference	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference::ObjectReference(): Reference<Object>() {$/;"	f	line:2324	class:Napi::ObjectReference
+ObjectReference	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference::ObjectReference(ObjectReference&& other)$/;"	f	line:2339	class:Napi::ObjectReference
+ObjectReference	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference::ObjectReference(Reference<Object>&& other)$/;"	f	line:2330	class:Napi::ObjectReference
+ObjectReference	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference::ObjectReference(const ObjectReference& other)$/;"	f	line:2348	class:Napi::ObjectReference
+ObjectReference	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference::ObjectReference(napi_env env, napi_ref ref): Reference<Object>(env, ref) {$/;"	f	line:2327	class:Napi::ObjectReference
+ObjectReference	node_modules/node-addon-api/napi.h	/^  class ObjectReference: public Reference<Object> {$/;"	c	line:1108	namespace:Napi
+ObjectWrap	node_modules/node-addon-api/napi-inl.h	/^inline ObjectWrap<T>::ObjectWrap(const Napi::CallbackInfo& callbackInfo) {$/;"	f	line:2878	class:Napi::ObjectWrap
+ObjectWrap	node_modules/node-addon-api/napi.h	/^  class ObjectWrap : public Reference<Object> {$/;"	c	line:1570	namespace:Napi
+OnError	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::OnError(const Error& e) {$/;"	f	line:3695	class:Napi::AsyncWorker
+OnExecute	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::OnExecute(napi_env \/*DO_NOT_USE*\/, void* this_pointer) {$/;"	f	line:3712	class:Napi::AsyncWorker
+OnFatalError	node_modules/node-addon-api/src/node_internals.cc	/^static void OnFatalError(const char* location, const char* message) {$/;"	f	line:119	namespace:node
+OnOK	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::OnOK() {$/;"	f	line:3689	class:Napi::AsyncWorker
+OnWorkComplete	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::OnWorkComplete($/;"	f	line:3725	class:Napi::AsyncWorker
+OneByteString	node_modules/node-addon-api/src/util-inl.h	/^inline v8::Local<v8::String> OneByteString(v8::Isolate* isolate,$/;"	f	line:18	namespace:node
+OneByteString	node_modules/node-addon-api/src/util-inl.h	/^inline v8::Local<v8::String> OneByteString(v8::Isolate* isolate,$/;"	f	line:27	namespace:node
+OneByteString	node_modules/node-addon-api/src/util-inl.h	/^inline v8::Local<v8::String> OneByteString(v8::Isolate* isolate,$/;"	f	line:9	namespace:node
+PATH	node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m	line:9
+PATH	node_modules/is-date-object/Makefile	/^export PATH := $(shell printf '%s' "$$PWD\/node_modules\/.bin:$$PATH")$/;"	m	line:11
+PATH	node_modules/is-regex/Makefile	/^export PATH := $(shell printf '%s' "$$PWD\/node_modules\/.bin:$$PATH")$/;"	m	line:11
+PATH	node_modules/method-override/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m	line:9
+PATH	node_modules/mquery/node_modules/debug/Makefile	/^PATH := node_modules\/.bin:$(PATH)$/;"	m	line:9
+PKG	node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m	line:15
+PKG	node_modules/method-override/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m	line:15
+PKG	node_modules/mquery/node_modules/debug/Makefile	/^PKG ?= $(if $(YARN),$(YARN),$(NODE) $(shell which npm))$/;"	m	line:15
+PRETTY_FUNCTION_NAME	node_modules/node-addon-api/src/node_internals.h	28;"	d	line:28
+PRETTY_FUNCTION_NAME	node_modules/node-addon-api/src/node_internals.h	32;"	d	line:32
+Persistent	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference Persistent(Function value) {$/;"	f	line:2316	namespace:Napi
+Persistent	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference Persistent(Object value) {$/;"	f	line:2312	namespace:Napi
+Persistent	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T> Persistent(T value) {$/;"	f	line:2308	namespace:Napi
+PrintErrorString	node_modules/node-addon-api/src/node_internals.cc	/^static void PrintErrorString(const char* format, ...) {$/;"	f	line:53	namespace:node
+Private	node_modules/node-addon-api/src/node_internals.h	/^  namespace Private {$/;"	n	line:145	namespace:v8
+Promise	node_modules/node-addon-api/napi-inl.h	/^inline Promise Promise::Deferred::Promise() const {$/;"	f	line:1801	class:Napi::Promise::Deferred
+Promise	node_modules/node-addon-api/napi-inl.h	/^inline Promise::Promise(napi_env env, napi_value value) : Object(env, value) {$/;"	f	line:1819	class:Napi::Promise
+Promise	node_modules/node-addon-api/napi.h	/^  class Promise : public Object {$/;"	c	line:1001	namespace:Napi
+PropertyDescriptor	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor::PropertyDescriptor(napi_property_descriptor desc)$/;"	f	line:2861	class:Napi::PropertyDescriptor
+PropertyDescriptor	node_modules/node-addon-api/napi.h	/^    typedef ClassPropertyDescriptor<T> PropertyDescriptor;$/;"	t	line:1586	class:Napi::ObjectWrap
+PropertyDescriptor	node_modules/node-addon-api/napi.h	/^  class PropertyDescriptor {$/;"	c	line:1370	namespace:Napi
+PropertyLValue	node_modules/node-addon-api/napi-inl.h	/^inline Object::PropertyLValue<Key>::PropertyLValue(Object object, Key key)$/;"	f	line:906	class:Napi::Object::PropertyLValue
+PropertyLValue	node_modules/node-addon-api/napi.h	/^    class PropertyLValue {$/;"	c	line:475	class:Napi::Object
+Queue	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::Queue() {$/;"	f	line:3667	class:Napi::AsyncWorker
+RETURN_STATUS_IF_FALSE	node_modules/node-addon-api/src/node_api.cc	59;"	d	line:59	file:
+RangeError	node_modules/node-addon-api/napi-inl.h	/^inline RangeError::RangeError() : Error() {$/;"	f	line:2133	class:Napi::RangeError
+RangeError	node_modules/node-addon-api/napi-inl.h	/^inline RangeError::RangeError(napi_env env, napi_value value) : Error(env, value) {$/;"	f	line:2136	class:Napi::RangeError
+RangeError	node_modules/node-addon-api/napi.h	/^  class RangeError : public Error {$/;"	c	line:1331	namespace:Napi
+ReadData	node_modules/node-addon-api/napi-inl.h	/^inline T DataView::ReadData(size_t byteOffset) const {$/;"	f	line:1481	class:Napi::DataView
+Receiver	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference& AsyncWorker::Receiver() {$/;"	f	line:3677	class:Napi::AsyncWorker
+Ref	node_modules/node-addon-api/napi-inl.h	/^inline uint32_t Reference<T>::Ref() {$/;"	f	line:2253	class:Napi::Reference
+Ref	node_modules/node-addon-api/src/node_api.cc	/^  uint32_t Ref() {$/;"	f	line:417	class:__anon1::v8impl::Reference
+RefCount	node_modules/node-addon-api/src/node_api.cc	/^  uint32_t RefCount() {$/;"	f	line:438	class:__anon1::v8impl::Reference
+Reference	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>::Reference() : _env(nullptr), _ref(nullptr), _suppressDestruct(false) {$/;"	f	line:2161	class:Napi::Reference
+Reference	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>::Reference(Reference<T>&& other)$/;"	f	line:2181	class:Napi::Reference
+Reference	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>::Reference(const Reference<T>& other)$/;"	f	line:2201	class:Napi::Reference
+Reference	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>::Reference(napi_env env, napi_ref ref)$/;"	f	line:2165	class:Napi::Reference
+Reference	node_modules/node-addon-api/napi.h	/^  class Reference {$/;"	c	line:1062	namespace:Napi
+Reference	node_modules/node-addon-api/src/node_api.cc	/^  Reference(napi_env env,$/;"	f	line:368	class:__anon1::v8impl::Reference	file:
+Reference	node_modules/node-addon-api/src/node_api.cc	/^class Reference : private Finalizer {$/;"	c	line:366	namespace:__anon1::v8impl	file:
+RegisterModule	node_modules/node-addon-api/napi-inl.h	/^inline napi_value RegisterModule(napi_env env,$/;"	f	line:252	namespace:Napi
+Reject	node_modules/node-addon-api/napi-inl.h	/^inline void Promise::Deferred::Reject(napi_value value) const {$/;"	f	line:1814	class:Napi::Promise::Deferred
+Release	node_modules/node-addon-api/napi-inl.h	/^inline napi_status ThreadSafeFunction::Release() {$/;"	f	line:3989	class:Napi::ThreadSafeFunction
+Request	node_modules/node-addon-api/src/node_api.cc	/^  uv_work_t* Request() {$/;"	f	line:3485	class:__anon2::uvimpl::Work
+Reset	node_modules/node-addon-api/napi-inl.h	/^inline void Reference<T>::Reset() {$/;"	f	line:2269	class:Napi::Reference
+Reset	node_modules/node-addon-api/napi-inl.h	/^inline void Reference<T>::Reset(const T& value, uint32_t refcount) {$/;"	f	line:2278	class:Napi::Reference
+ResetInDestructorPersistentTraits	node_modules/node-addon-api/src/node_internals.h	/^struct ResetInDestructorPersistentTraits {$/;"	s	line:75	namespace:node
+Resolve	node_modules/node-addon-api/napi-inl.h	/^inline void Promise::Deferred::Resolve(napi_value value) const {$/;"	f	line:1809	class:Napi::Promise::Deferred
+Run	node_modules/deasync/src/deasync.cc	/^Napi::Value Run(const Napi::CallbackInfo& info) {$/;"	f	line:8
+SHELL	node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:10
+SHELL	node_modules/method-override/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:10
+SHELL	node_modules/mquery/node_modules/debug/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:10
+SHELL	node_modules/stack-trace/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:1
+SRC_NAPI_H_	node_modules/node-addon-api/napi.h	2;"	d	line:2
+SRC_NAPI_INL_DEPRECATED_H_	node_modules/node-addon-api/napi-inl.deprecated.h	2;"	d	line:2
+SRC_NAPI_INL_H_	node_modules/node-addon-api/napi-inl.h	2;"	d	line:2
+SRC_NODE_API_H_	node_modules/node-addon-api/src/node_api.h	11;"	d	line:11
+SRC_NODE_API_TYPES_H_	node_modules/node-addon-api/src/node_api_types.h	2;"	d	line:2
+SRC_NODE_INTERNALS_H_	node_modules/node-addon-api/src/node_internals.h	2;"	d	line:2
+SRC_UTIL_H_	node_modules/node-addon-api/src/util.h	2;"	d	line:2
+SRC_UTIL_INL_H_	node_modules/node-addon-api/src/util-inl.h	2;"	d	line:2
+STRINGIFY	node_modules/node-addon-api/src/node_internals.h	36;"	d	line:36
+STRINGIFY_	node_modules/node-addon-api/src/node_internals.h	35;"	d	line:35
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void Object::Set(Value key, const ValueType& value) {$/;"	f	line:1029	class:Napi::Object
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void Object::Set(const char* utf8name, const ValueType& value) {$/;"	f	line:1036	class:Napi::Object
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void Object::Set(const std::string& utf8name, const ValueType& value) {$/;"	f	line:1043	class:Napi::Object
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void Object::Set(napi_value key, const ValueType& value) {$/;"	f	line:1022	class:Napi::Object
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void Object::Set(uint32_t index, const ValueType& value) {$/;"	f	line:1084	class:Napi::Object
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const char* utf8name, Napi::Value value) {$/;"	f	line:2367	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const char* utf8name, bool boolValue) {$/;"	f	line:2377	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const char* utf8name, const char* utf8value) {$/;"	f	line:2372	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const char* utf8name, double numberValue) {$/;"	f	line:2382	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const char* utf8name, napi_value value) {$/;"	f	line:2362	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const std::string& utf8name, Napi::Value value) {$/;"	f	line:2392	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const std::string& utf8name, bool boolValue) {$/;"	f	line:2402	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const std::string& utf8name, double numberValue) {$/;"	f	line:2407	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const std::string& utf8name, napi_value value) {$/;"	f	line:2387	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(const std::string& utf8name, std::string& utf8value) {$/;"	f	line:2397	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(uint32_t index, Napi::Value value) {$/;"	f	line:2422	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(uint32_t index, bool boolValue) {$/;"	f	line:2437	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(uint32_t index, const char* utf8value) {$/;"	f	line:2427	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(uint32_t index, const std::string& utf8value) {$/;"	f	line:2432	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(uint32_t index, double numberValue) {$/;"	f	line:2442	class:Napi::ObjectReference
+Set	node_modules/node-addon-api/napi-inl.h	/^inline void ObjectReference::Set(uint32_t index, napi_value value) {$/;"	f	line:2417	class:Napi::ObjectReference
+SetData	node_modules/node-addon-api/napi-inl.h	/^inline void CallbackInfo::SetData(void* data) {$/;"	f	line:2639	class:Napi::CallbackInfo
+SetError	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::SetError(const std::string& error) {$/;"	f	line:3701	class:Napi::AsyncWorker
+SetFloat32	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetFloat32(size_t byteOffset, float value) const {$/;"	f	line:1448	class:Napi::DataView
+SetFloat64	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetFloat64(size_t byteOffset, double value) const {$/;"	f	line:1452	class:Napi::DataView
+SetInt16	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetInt16(size_t byteOffset, int16_t value) const {$/;"	f	line:1460	class:Napi::DataView
+SetInt32	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetInt32(size_t byteOffset, int32_t value) const {$/;"	f	line:1464	class:Napi::DataView
+SetInt8	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetInt8(size_t byteOffset, int8_t value) const {$/;"	f	line:1456	class:Napi::DataView
+SetPrivate	node_modules/node-addon-api/src/node_internals.h	150;"	d	line:150
+SetUint16	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetUint16(size_t byteOffset, uint16_t value) const {$/;"	f	line:1472	class:Napi::DataView
+SetUint32	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetUint32(size_t byteOffset, uint32_t value) const {$/;"	f	line:1476	class:Napi::DataView
+SetUint8	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::SetUint8(size_t byteOffset, uint8_t value) const {$/;"	f	line:1468	class:Napi::DataView
+SetterCallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^  SetterCallbackWrapper(const v8::PropertyCallbackInfo<void>& cbinfo,$/;"	f	line:675	class:__anon1::v8impl::SetterCallbackWrapper
+SetterCallbackWrapper	node_modules/node-addon-api/src/node_api.cc	/^class SetterCallbackWrapper$/;"	c	line:664	namespace:__anon1::v8impl	file:
+SetterWrapper	node_modules/node-addon-api/napi-inl.h	/^  napi_value SetterWrapper(napi_env env, napi_callback_info info) {$/;"	f	line:216	struct:Napi::details::AccessorCallbackData
+StaticAccessor	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticAccessor($/;"	f	line:3079	class:Napi::ObjectWrap
+StaticAccessor	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticAccessor($/;"	f	line:3098	class:Napi::ObjectWrap
+StaticAccessorCallbackData	node_modules/node-addon-api/napi.h	/^      StaticAccessorCallbackData;$/;"	t	line:1695	class:Napi::ObjectWrap
+StaticGetterCallback	node_modules/node-addon-api/napi.h	/^    typedef Napi::Value (*StaticGetterCallback)(const CallbackInfo& info);$/;"	t	line:1579	class:Napi::ObjectWrap::Napi
+StaticGetterCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::StaticGetterCallbackWrapper($/;"	f	line:3316	class:Napi::ObjectWrap
+StaticMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticMethod($/;"	f	line:3015	class:Napi::ObjectWrap
+StaticMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticMethod($/;"	f	line:3031	class:Napi::ObjectWrap
+StaticMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticMethod($/;"	f	line:3047	class:Napi::ObjectWrap
+StaticMethod	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticMethod($/;"	f	line:3063	class:Napi::ObjectWrap
+StaticMethodCallback	node_modules/node-addon-api/napi.h	/^    typedef Napi::Value (*StaticMethodCallback)(const CallbackInfo& info);$/;"	t	line:1578	class:Napi::ObjectWrap::Napi
+StaticMethodCallbackData	node_modules/node-addon-api/napi.h	/^    typedef MethodCallbackData<StaticMethodCallback> StaticMethodCallbackData;$/;"	t	line:1684	class:Napi::ObjectWrap
+StaticMethodCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::StaticMethodCallbackWrapper($/;"	f	line:3303	class:Napi::ObjectWrap
+StaticSetterCallback	node_modules/node-addon-api/napi.h	/^    typedef void (*StaticSetterCallback)(const CallbackInfo& info, const Napi::Value& value);$/;"	t	line:1580	class:Napi::ObjectWrap
+StaticSetterCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::StaticSetterCallbackWrapper($/;"	f	line:3329	class:Napi::ObjectWrap
+StaticValue	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticValue(Symbol name,$/;"	f	line:3231	class:Napi::ObjectWrap
+StaticValue	node_modules/node-addon-api/napi-inl.h	/^inline ClassPropertyDescriptor<T> ObjectWrap<T>::StaticValue(const char* utf8name,$/;"	f	line:3221	class:Napi::ObjectWrap
+StaticVoidMethodCallback	node_modules/node-addon-api/napi.h	/^    typedef void (*StaticVoidMethodCallback)(const CallbackInfo& info);$/;"	t	line:1577	class:Napi::ObjectWrap
+StaticVoidMethodCallbackData	node_modules/node-addon-api/napi.h	/^    typedef MethodCallbackData<StaticVoidMethodCallback> StaticVoidMethodCallbackData;$/;"	t	line:1683	class:Napi::ObjectWrap
+StaticVoidMethodCallbackWrapper	node_modules/node-addon-api/napi-inl.h	/^inline napi_value ObjectWrap<T>::StaticVoidMethodCallbackWrapper($/;"	f	line:3289	class:Napi::ObjectWrap
+StrictEquals	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::StrictEquals(const Value& other) const {$/;"	f	line:332	class:Napi::Value
+String	node_modules/node-addon-api/napi-inl.h	/^inline String::String() : Name() {$/;"	f	line:713	class:Napi::String
+String	node_modules/node-addon-api/napi-inl.h	/^inline String::String(napi_env env, napi_value value) : Name(env, value) {$/;"	f	line:716	class:Napi::String
+String	node_modules/node-addon-api/napi.h	/^  class String : public Name {$/;"	c	line:369	namespace:Napi
+SuppressDestruct	node_modules/node-addon-api/napi-inl.h	/^inline void AsyncWorker::SuppressDestruct() {$/;"	f	line:3685	class:Napi::AsyncWorker
+SuppressDestruct	node_modules/node-addon-api/napi-inl.h	/^inline void Reference<T>::SuppressDestruct() {$/;"	f	line:2290	class:Napi::Reference
+Symbol	node_modules/node-addon-api/napi-inl.h	/^inline Symbol::Symbol() : Name() {$/;"	f	line:784	class:Napi::Symbol
+Symbol	node_modules/node-addon-api/napi-inl.h	/^inline Symbol::Symbol(napi_env env, napi_value value) : Name(env, value) {$/;"	f	line:787	class:Napi::Symbol
+Symbol	node_modules/node-addon-api/napi.h	/^  class Symbol : public Name {$/;"	c	line:429	namespace:Napi
+THIS_DIR	node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m	line:3
+THIS_DIR	node_modules/method-override/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m	line:3
+THIS_DIR	node_modules/mquery/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m	line:3
+THIS_MAKEFILE_PATH	node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m	line:2
+THIS_MAKEFILE_PATH	node_modules/method-override/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m	line:2
+THIS_MAKEFILE_PATH	node_modules/mquery/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m	line:2
+THROW_RANGE_ERROR_IF_FALSE	node_modules/node-addon-api/src/node_api.cc	142;"	d	line:142	file:
+This	node_modules/node-addon-api/napi-inl.h	/^inline Value CallbackInfo::This() const {$/;"	f	line:2628	class:Napi::CallbackInfo
+This	node_modules/node-addon-api/src/node_api.cc	/^  napi_value This() { return _this; }$/;"	f	line:538	class:__anon1::v8impl::CallbackWrapper
+ThreadSafeFinalize	node_modules/node-addon-api/napi-inl.h	/^struct ThreadSafeFinalize {$/;"	s	line:132	namespace:Napi::details
+ThreadSafeFunction	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction::ThreadSafeFunction($/;"	f	line:3925	class:Napi::ThreadSafeFunction
+ThreadSafeFunction	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction::ThreadSafeFunction()$/;"	f	line:3921	class:Napi::ThreadSafeFunction
+ThreadSafeFunction	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction::ThreadSafeFunction(ThreadSafeFunction&& other)$/;"	f	line:3930	class:Napi::ThreadSafeFunction
+ThreadSafeFunction	node_modules/node-addon-api/napi.h	/^  class ThreadSafeFunction {$/;"	c	line:1834	namespace:Napi
+ThrowAsJavaScriptException	node_modules/node-addon-api/napi-inl.h	/^inline void Error::ThrowAsJavaScriptException() const {$/;"	f	line:2067	class:Napi::Error
+ToBoolean	node_modules/node-addon-api/napi-inl.h	/^inline Boolean Value::ToBoolean() const {$/;"	f	line:473	class:Napi::Value
+ToNumber	node_modules/node-addon-api/napi-inl.h	/^inline Number Value::ToNumber() const {$/;"	f	line:480	class:Napi::Value
+ToObject	node_modules/node-addon-api/napi-inl.h	/^inline Object Value::ToObject() const {$/;"	f	line:494	class:Napi::Value
+ToString	node_modules/node-addon-api/napi-inl.h	/^inline String Value::ToString() const {$/;"	f	line:487	class:Napi::Value
+ToWords	node_modules/node-addon-api/napi-inl.h	/^inline void BigInt::ToWords(int* sign_bit, size_t* word_count, uint64_t* words) {$/;"	f	line:656	class:Napi::BigInt
+TryCatch	node_modules/node-addon-api/src/node_api.cc	/^  explicit TryCatch(napi_env env)$/;"	f	line:480	class:__anon1::v8impl::TryCatch
+TryCatch	node_modules/node-addon-api/src/node_api.cc	/^class TryCatch : public v8::TryCatch {$/;"	c	line:478	namespace:__anon1::v8impl	file:
+Type	node_modules/node-addon-api/napi-inl.h	/^inline napi_valuetype Value::Type() const {$/;"	f	line:347	class:Napi::Value
+TypeError	node_modules/node-addon-api/napi-inl.h	/^inline TypeError::TypeError() : Error() {$/;"	f	line:2119	class:Napi::TypeError
+TypeError	node_modules/node-addon-api/napi-inl.h	/^inline TypeError::TypeError(napi_env env, napi_value value) : Error(env, value) {$/;"	f	line:2122	class:Napi::TypeError
+TypeError	node_modules/node-addon-api/napi.h	/^  class TypeError : public Error {$/;"	c	line:1322	namespace:Napi
+TypedArray	node_modules/node-addon-api/napi-inl.h	/^inline TypedArray::TypedArray()$/;"	f	line:1506	class:Napi::TypedArray
+TypedArray	node_modules/node-addon-api/napi-inl.h	/^inline TypedArray::TypedArray(napi_env env, napi_value value)$/;"	f	line:1510	class:Napi::TypedArray
+TypedArray	node_modules/node-addon-api/napi-inl.h	/^inline TypedArray::TypedArray(napi_env env,$/;"	f	line:1514	class:Napi::TypedArray
+TypedArray	node_modules/node-addon-api/napi.h	/^  class TypedArray : public Object {$/;"	c	line:786	namespace:Napi
+TypedArrayOf	node_modules/node-addon-api/napi-inl.h	/^inline TypedArrayOf<T>::TypedArrayOf() : TypedArray(), _data(nullptr) {$/;"	f	line:1612	class:Napi::TypedArrayOf
+TypedArrayOf	node_modules/node-addon-api/napi-inl.h	/^inline TypedArrayOf<T>::TypedArrayOf(napi_env env, napi_value value)$/;"	f	line:1616	class:Napi::TypedArrayOf
+TypedArrayOf	node_modules/node-addon-api/napi-inl.h	/^inline TypedArrayOf<T>::TypedArrayOf(napi_env env,$/;"	f	line:1624	class:Napi::TypedArrayOf
+TypedArrayOf	node_modules/node-addon-api/napi.h	/^  class TypedArrayOf : public TypedArray {$/;"	c	line:838	namespace:Napi
+TypedArrayType	node_modules/node-addon-api/napi-inl.h	/^inline napi_typedarray_type TypedArray::TypedArrayType() const {$/;"	f	line:1521	class:Napi::TypedArray
+TypedArrayTypeForPrimitiveType	node_modules/node-addon-api/napi.h	/^    napi_typedarray_type TypedArrayTypeForPrimitiveType() {$/;"	f	line:813	class:Napi::TypedArray
+UNLIKELY	node_modules/node-addon-api/src/node_internals.h	27;"	d	line:27
+UNLIKELY	node_modules/node-addon-api/src/node_internals.h	31;"	d	line:31
+UTILS	node_modules/is-date-object/Makefile	/^UTILS := semver$/;"	m	line:12
+UTILS	node_modules/is-regex/Makefile	/^UTILS := semver$/;"	m	line:12
+UTIL_CHECK	node_modules/is-date-object/Makefile	/^UTIL_CHECK := $(or $(shell PATH="$(PATH)" which $(UTILS) >\/dev\/null && echo 'ok'),$(error Did you forget to run `npm install` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))$/;"	m	line:14
+UTIL_CHECK	node_modules/is-regex/Makefile	/^UTIL_CHECK := $(or $(shell PATH="$(PATH)" which $(UTILS) >\/dev\/null && echo 'ok'),$(error Did you forget to run `npm install` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))$/;"	m	line:14
+Uint16Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<uint16_t> Uint16Array; \/\/\/< Typed-array of unsigned 16-bit integers$/;"	t	line:134	namespace:Napi
+Uint32Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<uint32_t> Uint32Array; \/\/\/< Typed-array of unsigned 32-bit integers$/;"	t	line:136	namespace:Napi
+Uint32Value	node_modules/node-addon-api/napi-inl.h	/^inline uint32_t Number::Uint32Value() const {$/;"	f	line:573	class:Napi::Number
+Uint64Value	node_modules/node-addon-api/napi-inl.h	/^inline uint64_t BigInt::Uint64Value(bool* lossless) const {$/;"	f	line:640	class:Napi::BigInt
+Uint8Array	node_modules/node-addon-api/napi.h	/^  typedef TypedArrayOf<uint8_t> Uint8Array;   \/\/\/< Typed-array of unsigned 8-bit integers$/;"	t	line:132	namespace:Napi
+Undefined	node_modules/node-addon-api/napi-inl.h	/^inline Value Env::Undefined() const {$/;"	f	line:279	class:Napi::Env
+Unref	node_modules/node-addon-api/napi-inl.h	/^inline uint32_t Reference<T>::Unref() {$/;"	f	line:2261	class:Napi::Reference
+Unref	node_modules/node-addon-api/src/node_api.cc	/^  uint32_t Unref() {$/;"	f	line:425	class:__anon1::v8impl::Reference
+Unwrap	node_modules/node-addon-api/napi-inl.h	/^inline T* ObjectWrap<T>::Unwrap(Object wrapper) {$/;"	f	line:2892	class:Napi::ObjectWrap
+Unwrap	node_modules/node-addon-api/src/node_api.cc	/^napi_status Unwrap(napi_env env,$/;"	f	line:818	namespace:__anon1::v8impl
+Utf16Value	node_modules/node-addon-api/napi-inl.h	/^inline std::u16string String::Utf16Value() const {$/;"	f	line:740	class:Napi::String
+Utf8Value	node_modules/node-addon-api/napi-inl.h	/^inline std::string String::Utf8Value() const {$/;"	f	line:727	class:Napi::String
+V8EscapableHandleScopeFromJsEscapableHandleScope	node_modules/node-addon-api/src/node_api.cc	/^V8EscapableHandleScopeFromJsEscapableHandleScope($/;"	f	line:258	namespace:__anon1::v8impl
+V8HandleScopeFromJsHandleScope	node_modules/node-addon-api/src/node_api.cc	/^HandleScopeWrapper* V8HandleScopeFromJsHandleScope(napi_handle_scope s) {$/;"	f	line:246	namespace:__anon1::v8impl
+V8LocalValueFromJsValue	node_modules/node-addon-api/src/node_api.cc	/^v8::Local<v8::Value> V8LocalValueFromJsValue(napi_value v) {$/;"	f	line:286	namespace:__anon1::v8impl
+V8NameFromPropertyDescriptor	node_modules/node-addon-api/src/node_api.cc	/^static inline napi_status V8NameFromPropertyDescriptor(napi_env env,$/;"	f	line:299	namespace:__anon1::v8impl
+V8PersistentFromJsDeferred	node_modules/node-addon-api/src/node_api.cc	/^v8::Persistent<v8::Value>* V8PersistentFromJsDeferred(napi_deferred local) {$/;"	f	line:276	namespace:__anon1::v8impl
+V8PropertyAttributesFromDescriptor	node_modules/node-addon-api/src/node_api.cc	/^static inline v8::PropertyAttribute V8PropertyAttributesFromDescriptor($/;"	f	line:186	namespace:__anon1::v8impl
+VERSIONED_FILES	node_modules/is-date-object/Makefile	/^VERSIONED_FILES := *.js *.json README*$/;"	m	line:5
+VERSIONED_FILES	node_modules/is-regex/Makefile	/^VERSIONED_FILES := *.js *.json README*$/;"	m	line:5
+Value	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Value(Name name,$/;"	f	line:2853	class:Napi::PropertyDescriptor
+Value	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Value(const char* utf8name,$/;"	f	line:2831	class:Napi::PropertyDescriptor
+Value	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Value(const std::string& utf8name,$/;"	f	line:2839	class:Napi::PropertyDescriptor
+Value	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor PropertyDescriptor::Value(napi_value name,$/;"	f	line:2845	class:Napi::PropertyDescriptor
+Value	node_modules/node-addon-api/napi-inl.h	/^inline T Reference<T>::Value() const {$/;"	f	line:2241	class:Napi::Reference
+Value	node_modules/node-addon-api/napi-inl.h	/^inline Value::Value() : _env(nullptr), _value(nullptr) {$/;"	f	line:314	class:Napi::Value
+Value	node_modules/node-addon-api/napi-inl.h	/^inline Value::Value(napi_env env, napi_value value) : _env(env), _value(value) {$/;"	f	line:317	class:Napi::Value
+Value	node_modules/node-addon-api/napi-inl.h	/^inline bool Boolean::Value() const {$/;"	f	line:522	class:Napi::Boolean
+Value	node_modules/node-addon-api/napi.h	/^  class Value {$/;"	c	line:190	namespace:Napi
+VersionManagement	node_modules/node-addon-api/napi.h	/^  class VersionManagement {$/;"	c	line:2042	namespace:Napi
+Weak	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference Weak(Function value) {$/;"	f	line:2303	namespace:Napi
+Weak	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference Weak(Object value) {$/;"	f	line:2299	namespace:Napi
+Weak	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T> Weak(T value) {$/;"	f	line:2295	namespace:Napi
+WeakCallback	node_modules/node-addon-api/src/node_api.cc	/^  static void WeakCallback(v8::WeakCallbackInfo<CallbackBundle> const& info) {$/;"	f	line:516	struct:__anon1::v8impl::CallbackBundle	file:
+WellKnown	node_modules/node-addon-api/napi-inl.h	/^inline Symbol Symbol::WellKnown(napi_env env, const std::string& name) {$/;"	f	line:780	class:Napi::Symbol
+WordCount	node_modules/node-addon-api/napi-inl.h	/^inline size_t BigInt::WordCount() const {$/;"	f	line:648	class:Napi::BigInt
+Work	node_modules/node-addon-api/src/node_api.cc	/^  explicit Work(napi_env env,$/;"	f	line:3421	class:__anon2::uvimpl::Work	file:
+Work	node_modules/node-addon-api/src/node_api.cc	/^class Work : public node::AsyncResource {$/;"	c	line:3419	namespace:__anon2::uvimpl	file:
+WrapCallback	node_modules/node-addon-api/napi-inl.h	/^inline napi_value WrapCallback(Callable callback) {$/;"	f	line:58	namespace:Napi::details
+Wrapper	node_modules/node-addon-api/napi-inl.h	/^  napi_value Wrapper(napi_env env, napi_callback_info info) {$/;"	f	line:76	struct:Napi::details::CallbackData
+Wrapper	node_modules/node-addon-api/napi-inl.h	/^  napi_value Wrapper(napi_env env, napi_callback_info info) {$/;"	f	line:93	struct:Napi::details::CallbackData
+Wrapper	node_modules/node-addon-api/napi-inl.h	/^  void Wrapper(napi_env env, void* data, void* finalizeHint) {$/;"	f	line:111	struct:Napi::details::FinalizeData
+Wrapper	node_modules/node-addon-api/napi-inl.h	/^  void Wrapper(napi_env env, void* rawFinalizeData, void* \/* rawContext *\/) {$/;"	f	line:134	struct:Napi::details::ThreadSafeFinalize
+WrapperWithHint	node_modules/node-addon-api/napi-inl.h	/^  void WrapperWithHint(napi_env env, void* data, void* finalizeHint) {$/;"	f	line:118	struct:Napi::details::FinalizeData
+WriteData	node_modules/node-addon-api/napi-inl.h	/^inline void DataView::WriteData(size_t byteOffset, T value) const {$/;"	f	line:1492	class:Napi::DataView
+YARN	node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m	line:14
+YARN	node_modules/method-override/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m	line:14
+YARN	node_modules/mquery/node_modules/debug/Makefile	/^YARN ?= $(shell which yarn)$/;"	m	line:14
+_argc	node_modules/node-addon-api/napi.h	/^    size_t _argc;$/;"	m	line:1363	class:Napi::CallbackInfo
+_args_length	node_modules/node-addon-api/src/node_api.cc	/^  const size_t _args_length;$/;"	m	line:546	class:__anon1::v8impl::CallbackWrapper	file:
+_argv	node_modules/node-addon-api/napi.h	/^    napi_value* _argv;$/;"	m	line:1364	class:Napi::CallbackInfo
+_bundle	node_modules/node-addon-api/src/node_api.cc	/^  CallbackBundle* _bundle;$/;"	m	line:583	class:__anon1::v8impl::CallbackWrapperBase	file:
+_callback	node_modules/node-addon-api/napi.h	/^    FunctionReference _callback;$/;"	m	line:1828	class:Napi::AsyncWorker
+_cbinfo	node_modules/node-addon-api/src/node_api.cc	/^  const Info& _cbinfo;$/;"	m	line:582	class:__anon1::v8impl::CallbackWrapperBase	file:
+_complete	node_modules/node-addon-api/src/node_api.cc	/^  napi_async_complete_callback _complete;$/;"	m	line:3494	class:__anon2::uvimpl::Work	file:
+_context	node_modules/node-addon-api/napi.h	/^    napi_async_context _context;$/;"	m	line:1763	class:Napi::AsyncContext
+_data	node_modules/node-addon-api/napi.h	/^    T* _data;$/;"	m	line:895	class:Napi::TypedArrayOf
+_data	node_modules/node-addon-api/napi.h	/^    mutable T* _data;$/;"	m	line:1050	class:Napi::Buffer
+_data	node_modules/node-addon-api/napi.h	/^    mutable void* _data;$/;"	m	line:770	class:Napi::ArrayBuffer
+_data	node_modules/node-addon-api/napi.h	/^    void* _data;$/;"	m	line:1367	class:Napi::CallbackInfo
+_data	node_modules/node-addon-api/napi.h	/^    void* _data;$/;"	m	line:952	class:Napi::DataView
+_data	node_modules/node-addon-api/src/node_api.cc	/^  void* _data;$/;"	m	line:3491	class:__anon2::uvimpl::Work	file:
+_data	node_modules/node-addon-api/src/node_api.cc	/^  void* _data;$/;"	m	line:547	class:__anon1::v8impl::CallbackWrapper	file:
+_deferred	node_modules/node-addon-api/napi.h	/^      napi_deferred _deferred;$/;"	m	line:1016	class:Napi::Promise::Deferred
+_delete_self	node_modules/node-addon-api/src/node_api.cc	/^  bool _delete_self;$/;"	m	line:475	class:__anon1::v8impl::Reference	file:
+_desc	node_modules/node-addon-api/napi.h	/^    napi_property_descriptor _desc;$/;"	m	line:1524	class:Napi::PropertyDescriptor
+_desc	node_modules/node-addon-api/napi.h	/^    napi_property_descriptor _desc;$/;"	m	line:1541	class:Napi::ClassPropertyDescriptor
+_dynamicArgs	node_modules/node-addon-api/napi.h	/^    napi_value* _dynamicArgs;$/;"	m	line:1366	class:Napi::CallbackInfo
+_env	node_modules/node-addon-api/napi.h	/^      napi_env _env;$/;"	m	line:1015	class:Napi::Promise::Deferred
+_env	node_modules/node-addon-api/napi.h	/^      napi_env _env;$/;"	m	line:488	class:Napi::Object::PropertyLValue
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1100	class:Napi::Reference
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1360	class:Napi::CallbackInfo
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1711	class:Napi::HandleScope
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1727	class:Napi::EscapableHandleScope
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1743	class:Napi::CallbackScope
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:176	class:Napi::Env
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1762	class:Napi::AsyncContext
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:1825	class:Napi::AsyncWorker
+_env	node_modules/node-addon-api/napi.h	/^    napi_env _env;$/;"	m	line:274	class:Napi::Value
+_env	node_modules/node-addon-api/src/node_api.cc	/^  napi_env _env;$/;"	m	line:3490	class:__anon2::uvimpl::Work	file:
+_env	node_modules/node-addon-api/src/node_api.cc	/^  napi_env _env;$/;"	m	line:359	class:__anon1::v8impl::Finalizer	file:
+_env	node_modules/node-addon-api/src/node_api.cc	/^  napi_env _env;$/;"	m	line:490	class:__anon1::v8impl::TryCatch	file:
+_error	node_modules/node-addon-api/napi.h	/^    std::string _error;$/;"	m	line:1829	class:Napi::AsyncWorker
+_execute	node_modules/node-addon-api/src/node_api.cc	/^  napi_async_execute_callback _execute;$/;"	m	line:3493	class:__anon2::uvimpl::Work	file:
+_finalize_callback	node_modules/node-addon-api/src/node_api.cc	/^  napi_finalize _finalize_callback;$/;"	m	line:360	class:__anon1::v8impl::Finalizer	file:
+_finalize_data	node_modules/node-addon-api/src/node_api.cc	/^  void* _finalize_data;$/;"	m	line:361	class:__anon1::v8impl::Finalizer	file:
+_finalize_hint	node_modules/node-addon-api/src/node_api.cc	/^  void* _finalize_hint;$/;"	m	line:362	class:__anon1::v8impl::Finalizer	file:
+_info	node_modules/node-addon-api/napi.h	/^    napi_callback_info _info;$/;"	m	line:1361	class:Napi::CallbackInfo
+_key	node_modules/node-addon-api/napi.h	/^      Key _key;$/;"	m	line:490	class:Napi::Object::PropertyLValue
+_length	node_modules/node-addon-api/napi.h	/^    mutable size_t _length;$/;"	m	line:1049	class:Napi::Buffer
+_length	node_modules/node-addon-api/napi.h	/^    mutable size_t _length;$/;"	m	line:771	class:Napi::ArrayBuffer
+_length	node_modules/node-addon-api/napi.h	/^    size_t _length;$/;"	m	line:802	class:Napi::TypedArray
+_length	node_modules/node-addon-api/napi.h	/^    size_t _length;$/;"	m	line:953	class:Napi::DataView
+_message	node_modules/node-addon-api/napi.h	/^    mutable std::string _message;$/;"	m	line:1319	class:Napi::Error
+_object	node_modules/node-addon-api/napi.h	/^      napi_value _object;$/;"	m	line:489	class:Napi::Object::PropertyLValue
+_persistent	node_modules/node-addon-api/src/node_api.cc	/^  v8::Persistent<v8::Value> _persistent;$/;"	m	line:473	class:__anon1::v8impl::Reference	file:
+_promise	node_modules/node-addon-api/napi.h	/^      napi_value _promise;$/;"	m	line:1017	class:Napi::Promise::Deferred
+_receiver	node_modules/node-addon-api/napi.h	/^    ObjectReference _receiver;$/;"	m	line:1827	class:Napi::AsyncWorker
+_ref	node_modules/node-addon-api/napi.h	/^    napi_ref _ref;$/;"	m	line:1101	class:Napi::Reference
+_refcount	node_modules/node-addon-api/src/node_api.cc	/^  uint32_t _refcount;$/;"	m	line:474	class:__anon1::v8impl::Reference	file:
+_request	node_modules/node-addon-api/src/node_api.cc	/^  uv_work_t _request;$/;"	m	line:3492	class:__anon2::uvimpl::Work	file:
+_scope	node_modules/node-addon-api/napi.h	/^    napi_callback_scope _scope;$/;"	m	line:1744	class:Napi::CallbackScope
+_scope	node_modules/node-addon-api/napi.h	/^    napi_escapable_handle_scope _scope;$/;"	m	line:1728	class:Napi::EscapableHandleScope
+_scope	node_modules/node-addon-api/napi.h	/^    napi_handle_scope _scope;$/;"	m	line:1712	class:Napi::HandleScope
+_staticArgCount	node_modules/node-addon-api/napi.h	/^    const size_t _staticArgCount = 6;$/;"	m	line:1359	class:Napi::CallbackInfo
+_staticArgs	node_modules/node-addon-api/napi.h	/^    napi_value _staticArgs[6];$/;"	m	line:1365	class:Napi::CallbackInfo
+_suppressDestruct	node_modules/node-addon-api/napi.h	/^    bool _suppressDestruct;$/;"	m	line:1105	class:Napi::Reference
+_suppress_destruct	node_modules/node-addon-api/napi.h	/^    bool _suppress_destruct;$/;"	m	line:1830	class:Napi::AsyncWorker
+_this	node_modules/node-addon-api/napi.h	/^    napi_value _this;$/;"	m	line:1362	class:Napi::CallbackInfo
+_this	node_modules/node-addon-api/src/node_api.cc	/^  const napi_value _this;$/;"	m	line:545	class:__anon1::v8impl::CallbackWrapper	file:
+_tsfn	node_modules/node-addon-api/napi.h	/^    std::unique_ptr<napi_threadsafe_function> _tsfn;$/;"	m	line:2031	class:Napi::ThreadSafeFunction
+_type	node_modules/node-addon-api/napi.h	/^    napi_typedarray_type _type;$/;"	m	line:801	class:Napi::TypedArray
+_value	node_modules/node-addon-api/napi.h	/^    napi_value _value;$/;"	m	line:275	class:Napi::Value
+_value	node_modules/node-addon-api/src/node_api.cc	/^  const v8::Local<v8::Value>& _value;$/;"	m	line:700	class:__anon1::v8impl::SetterCallbackWrapper	file:
+_work	node_modules/node-addon-api/napi.h	/^    napi_async_work _work;$/;"	m	line:1826	class:Napi::AsyncWorker
+async_context	node_modules/node-addon-api/src/node_internals.h	/^typedef struct async_context {$/;"	s	line:93	namespace:node
+async_context	node_modules/node-addon-api/src/node_internals.h	/^} async_context;$/;"	t	line:96	namespace:node	typeref:struct:node::async_context
+async_id	node_modules/node-addon-api/src/node_internals.h	/^  node::async_id async_id;$/;"	m	line:94	struct:node::async_context
+async_id	node_modules/node-addon-api/src/node_internals.h	/^typedef int async_id;$/;"	t	line:91	namespace:node
+attributes	node_modules/node-addon-api/src/node_api_types.h	/^  napi_property_attributes attributes;$/;"	m	line:97	struct:__anon7
+callback	node_modules/node-addon-api/napi-inl.h	/^  Callable callback;$/;"	m	line:104	struct:Napi::details::CallbackData
+callback	node_modules/node-addon-api/napi-inl.h	/^  Callable callback;$/;"	m	line:86	struct:Napi::details::CallbackData
+callback	node_modules/node-addon-api/napi-inl.h	/^  Finalizer callback;$/;"	m	line:124	struct:Napi::details::FinalizeData
+callback	node_modules/node-addon-api/napi-inl.h	/^  Finalizer callback;$/;"	m	line:197	struct:Napi::details::ThreadSafeFinalize
+callback	node_modules/node-addon-api/napi.h	/^      TCallback callback;$/;"	m	line:1680	struct:Napi::ObjectWrap::MethodCallbackData
+can_make_string	node_modules/node-addon-api/napi-inl.h	/^struct can_make_string$/;"	s	line:846	namespace:Napi::details
+cb_data	node_modules/node-addon-api/src/node_api.cc	/^  void*          cb_data;  \/\/ The user provided callback data$/;"	m	line:510	struct:__anon1::v8impl::CallbackBundle	file:
+char16_t	node_modules/node-addon-api/src/node_api_types.h	/^    typedef uint16_t char16_t;$/;"	t	line:8
+context	node_modules/node-addon-api/napi.h	/^      void* context;$/;"	m	line:2001	struct:Napi::ThreadSafeFunction::ConvertibleContext
+create_error_fn	node_modules/node-addon-api/napi.h	/^    typedef napi_status (*create_error_fn)(napi_env envb, napi_value code, napi_value msg, napi_value* result);$/;"	t	line:1309	class:Napi::Error
+data	node_modules/node-addon-api/napi-inl.h	/^  FinalizerDataType* data;$/;"	m	line:196	struct:Napi::details::ThreadSafeFinalize
+data	node_modules/node-addon-api/napi-inl.h	/^  void* data;$/;"	m	line:105	struct:Napi::details::CallbackData
+data	node_modules/node-addon-api/napi-inl.h	/^  void* data;$/;"	m	line:229	struct:Napi::details::AccessorCallbackData
+data	node_modules/node-addon-api/napi-inl.h	/^  void* data;$/;"	m	line:87	struct:Napi::details::CallbackData
+data	node_modules/node-addon-api/napi.h	/^      void* data;$/;"	m	line:1681	struct:Napi::ObjectWrap::MethodCallbackData
+data	node_modules/node-addon-api/napi.h	/^      void* data;$/;"	m	line:1692	struct:Napi::ObjectWrap::AccessorCallbackData
+data	node_modules/node-addon-api/src/node_api_types.h	/^  void* data;$/;"	m	line:98	struct:__anon7
+details	node_modules/node-addon-api/napi-inl.h	/^namespace details {$/;"	n	line:18	namespace:Napi
+details	node_modules/node-addon-api/napi-inl.h	/^namespace details {$/;"	n	line:794	namespace:Napi
+disjunction	node_modules/node-addon-api/napi-inl.h	/^struct disjunction<B, Bs...>$/;"	s	line:842	namespace:Napi::details
+disjunction	node_modules/node-addon-api/napi-inl.h	/^template <typename B> struct disjunction<B> : B {};$/;"	s	line:840	namespace:Napi::details
+disjunction	node_modules/node-addon-api/napi-inl.h	/^template <typename...> struct disjunction : std::false_type {};$/;"	s	line:839	namespace:Napi::details
+engine_error_code	node_modules/node-addon-api/src/node_api_types.h	/^  uint32_t engine_error_code;$/;"	m	line:104	struct:__anon8
+engine_reserved	node_modules/node-addon-api/src/node_api_types.h	/^  void* engine_reserved;$/;"	m	line:103	struct:__anon8
+env	node_modules/node-addon-api/src/node_api.cc	/^  napi_env       env;      \/\/ Necessary to invoke C++ NAPI callback$/;"	m	line:509	struct:__anon1::v8impl::CallbackBundle	file:
+error_code	node_modules/node-addon-api/src/node_api_types.h	/^  napi_status error_code;$/;"	m	line:105	struct:__anon8
+error_message	node_modules/node-addon-api/src/node_api_types.h	/^  const char* error_message;$/;"	m	line:102	struct:__anon8
+error_messages	node_modules/node-addon-api/src/node_api.cc	/^const char* error_messages[] = {nullptr,$/;"	v	line:919	file:
+escape_called	node_modules/node-addon-api/src/node_api.cc	/^  bool escape_called() const {$/;"	f	line:226	class:__anon1::v8impl::EscapableHandleScopeWrapper
+escape_called_	node_modules/node-addon-api/src/node_api.cc	/^  bool escape_called_;$/;"	m	line:237	class:__anon1::v8impl::EscapableHandleScopeWrapper	file:
+function_or_getter	node_modules/node-addon-api/src/node_api.cc	/^  napi_callback  function_or_getter;$/;"	m	line:511	struct:__anon1::v8impl::CallbackBundle	file:
+getpid	node_modules/node-addon-api/src/node_internals.cc	8;"	d	line:8	file:
+getter	node_modules/node-addon-api/src/node_api_types.h	/^  napi_callback getter;$/;"	m	line:93	struct:__anon7
+getterCallback	node_modules/node-addon-api/napi-inl.h	/^  Getter getterCallback;$/;"	m	line:227	struct:Napi::details::AccessorCallbackData
+getterCallback	node_modules/node-addon-api/napi.h	/^      TGetterCallback getterCallback;$/;"	m	line:1690	struct:Napi::ObjectWrap::AccessorCallbackData
+handle	node_modules/node-addon-api/src/node_api.cc	/^  node::Persistent<v8::Value> handle;  \/\/ Die with this JavaScript object$/;"	m	line:513	struct:__anon1::v8impl::CallbackBundle	file:
+has_instance	node_modules/node-addon-api/src/node_api.cc	/^  v8::Persistent<v8::Value> has_instance;$/;"	m	line:40	struct:napi_env__	file:
+has_instance_available	node_modules/node-addon-api/src/node_api.cc	/^  bool has_instance_available;$/;"	m	line:42	struct:napi_env__	file:
+hint	node_modules/node-addon-api/napi-inl.h	/^  Hint* hint;$/;"	m	line:125	struct:Napi::details::FinalizeData
+init	node_modules/deasync/src/deasync.cc	/^static Napi::Object init(Napi::Env env, Napi::Object exports) {$/;"	f	line:15	file:
+isolate	node_modules/node-addon-api/src/node_api.cc	/^  v8::Isolate* isolate;$/;"	m	line:38	struct:napi_env__	file:
+kResetInDestructor	node_modules/node-addon-api/src/node_internals.h	/^  static const bool kResetInDestructor = true;$/;"	m	line:76	struct:node::ResetInDestructorPersistentTraits
+kWrapperFields	node_modules/node-addon-api/src/node_api.cc	/^int kWrapperFields = 3;$/;"	m	line:738	namespace:__anon1::v8impl	file:
+last_error	node_modules/node-addon-api/src/node_api.cc	/^  napi_extended_error_info last_error;$/;"	m	line:43	struct:napi_env__	file:
+last_exception	node_modules/node-addon-api/src/node_api.cc	/^  v8::Persistent<v8::Value> last_exception;$/;"	m	line:39	struct:napi_env__	file:
+major	node_modules/node-addon-api/src/node_api_types.h	/^  uint32_t major;$/;"	m	line:109	struct:__anon9
+method	node_modules/node-addon-api/src/node_api_types.h	/^  napi_callback method;$/;"	m	line:92	struct:__anon7
+minor	node_modules/node-addon-api/src/node_api_types.h	/^  uint32_t minor;$/;"	m	line:110	struct:__anon9
+n	node_modules/is-date-object/Makefile	/^	 printf "=== Bumping version **$$old_ver** to **$$new_ver** before committing and tagging:\\n=== TYPE 'proceed' TO PROCEED, anything else to abort: " && read response && [ "$$response" = 'proceed' ] || { echo 'Aborted.' >&2; exit 2; };  \\$/;"	m	line:58
+n	node_modules/is-regex/Makefile	/^	 printf "=== Bumping version **$$old_ver** to **$$new_ver** before committing and tagging:\\n=== TYPE 'proceed' TO PROCEED, anything else to abort: " && read response && [ "$$response" = 'proceed' ] || { echo 'Aborted.' >&2; exit 2; };  \\$/;"	m	line:58
+name	node_modules/node-addon-api/src/node_api_types.h	/^  napi_value name;$/;"	m	line:90	struct:__anon7
+napi_addon_register_func	node_modules/node-addon-api/src/node_api.h	/^typedef napi_value (*napi_addon_register_func)(napi_env env,$/;"	t	line:47
+napi_adjust_external_memory	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_adjust_external_memory(napi_env env,$/;"	f	line:3390
+napi_array_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_array_expected,$/;"	e	line:68	enum:__anon6
+napi_async_complete_callback	node_modules/node-addon-api/src/node_api_types.h	/^typedef void (*napi_async_complete_callback)(napi_env env,$/;"	t	line:83
+napi_async_context	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_async_context__ *napi_async_context;$/;"	t	line:19	typeref:struct:napi_async_context__
+napi_async_destroy	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_async_destroy(napi_env env,$/;"	f	line:2889
+napi_async_execute_callback	node_modules/node-addon-api/src/node_api_types.h	/^typedef void (*napi_async_execute_callback)(napi_env env,$/;"	t	line:81
+napi_async_init	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_async_init(napi_env env,$/;"	f	line:2858
+napi_async_work	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_async_work__ *napi_async_work;$/;"	t	line:20	typeref:struct:napi_async_work__
+napi_boolean	node_modules/node-addon-api/src/node_api_types.h	/^  napi_boolean,$/;"	e	line:38	enum:__anon4
+napi_boolean_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_boolean_expected,$/;"	e	line:67	enum:__anon6
+napi_call_function	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_call_function(napi_env env,$/;"	f	line:1976
+napi_callback	node_modules/node-addon-api/src/node_api_types.h	/^typedef napi_value (*napi_callback)(napi_env env,$/;"	t	line:76
+napi_callback_info	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_callback_info__ *napi_callback_info;$/;"	t	line:18	typeref:struct:napi_callback_info__
+napi_cancel_async_work	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_cancel_async_work(napi_env env, napi_async_work work) {$/;"	f	line:3570
+napi_cancelled	node_modules/node-addon-api/src/node_api_types.h	/^  napi_cancelled,$/;"	e	line:71	enum:__anon6
+napi_clear_last_error	node_modules/node-addon-api/src/node_api.cc	/^static inline napi_status napi_clear_last_error(napi_env env) {$/;"	f	line:933	file:
+napi_close_escapable_handle_scope	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_close_escapable_handle_scope($/;"	f	line:2675
+napi_close_handle_scope	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_close_handle_scope(napi_env env, napi_handle_scope scope) {$/;"	f	line:2647
+napi_coerce_to_bool	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_coerce_to_bool(napi_env env,$/;"	f	line:2344
+napi_coerce_to_number	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_coerce_to_number(napi_env env,$/;"	f	line:2361
+napi_coerce_to_object	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_coerce_to_object(napi_env env,$/;"	f	line:2328
+napi_coerce_to_string	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_coerce_to_string(napi_env env,$/;"	f	line:2378
+napi_configurable	node_modules/node-addon-api/src/node_api_types.h	/^  napi_configurable = 1 << 2,$/;"	e	line:27	enum:__anon3
+napi_create_array	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_array(napi_env env, napi_value* result) {$/;"	f	line:1595
+napi_create_array_with_length	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_array_with_length(napi_env env,$/;"	f	line:1605
+napi_create_arraybuffer	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_arraybuffer(napi_env env,$/;"	f	line:3091
+napi_create_async_work	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_async_work(napi_env env,$/;"	f	line:3509
+napi_create_buffer	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_buffer(napi_env env,$/;"	f	line:2976
+napi_create_buffer_copy	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_buffer_copy(napi_env env,$/;"	f	line:3029
+napi_create_dataview	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_dataview(napi_env env,$/;"	f	line:3295
+napi_create_double	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_double(napi_env env,$/;"	f	line:1669
+napi_create_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_error(napi_env env,$/;"	f	line:1806
+napi_create_external	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_external(napi_env env,$/;"	f	line:2491
+napi_create_external_arraybuffer	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_external_arraybuffer(napi_env env,$/;"	f	line:3112
+napi_create_external_buffer	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_external_buffer(napi_env env,$/;"	f	line:2998
+napi_create_function	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_function(napi_env env,$/;"	f	line:1011
+napi_create_int32	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_int32(napi_env env,$/;"	f	line:1681
+napi_create_int64	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_int64(napi_env env,$/;"	f	line:1705
+napi_create_object	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_object(napi_env env, napi_value* result) {$/;"	f	line:1585
+napi_create_promise	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_promise(napi_env env,$/;"	f	line:3581
+napi_create_range_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_range_error(napi_env env,$/;"	f	line:1848
+napi_create_reference	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_reference(napi_env env,$/;"	f	line:2535
+napi_create_string_latin1	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_string_latin1(napi_env env,$/;"	f	line:1617
+napi_create_string_utf16	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_string_utf16(napi_env env,$/;"	f	line:1650
+napi_create_string_utf8	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_string_utf8(napi_env env,$/;"	f	line:1636
+napi_create_symbol	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_symbol(napi_env env,$/;"	f	line:1732
+napi_create_type_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_type_error(napi_env env,$/;"	f	line:1827
+napi_create_typedarray	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_typedarray(napi_env env,$/;"	f	line:3176
+napi_create_uint32	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_create_uint32(napi_env env,$/;"	f	line:1693
+napi_default	node_modules/node-addon-api/src/node_api_types.h	/^  napi_default = 0,$/;"	e	line:24	enum:__anon3
+napi_deferred	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_deferred__ *napi_deferred;$/;"	t	line:21	typeref:struct:napi_deferred__
+napi_define_class	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_define_class(napi_env env,$/;"	f	line:1049
+napi_define_properties	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_define_properties(napi_env env,$/;"	f	line:1443
+napi_delete_async_work	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_delete_async_work(napi_env env, napi_async_work work) {$/;"	f	line:3541
+napi_delete_element	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_delete_element(napi_env env,$/;"	f	line:1423
+napi_delete_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_delete_property(napi_env env,$/;"	f	line:1243
+napi_delete_reference	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_delete_reference(napi_env env, napi_ref ref) {$/;"	f	line:2560
+napi_enumerable	node_modules/node-addon-api/src/node_api_types.h	/^  napi_enumerable = 1 << 1,$/;"	e	line:26	enum:__anon3
+napi_env	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_env__ *napi_env;$/;"	t	line:13	typeref:struct:napi_env__
+napi_env__	node_modules/node-addon-api/src/node_api.cc	/^  explicit napi_env__(v8::Isolate* _isolate): isolate(_isolate),$/;"	f	line:31	struct:napi_env__
+napi_env__	node_modules/node-addon-api/src/node_api.cc	/^struct napi_env__ {$/;"	s	line:30	file:
+napi_escapable_handle_scope	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_escapable_handle_scope__ *napi_escapable_handle_scope;$/;"	t	line:17	typeref:struct:napi_escapable_handle_scope__
+napi_escape_called_twice	node_modules/node-addon-api/src/node_api_types.h	/^  napi_escape_called_twice,$/;"	e	line:72	enum:__anon6
+napi_escape_handle	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_escape_handle(napi_env env,$/;"	f	line:2691
+napi_extended_error_info	node_modules/node-addon-api/src/node_api_types.h	/^} napi_extended_error_info;$/;"	t	line:106	typeref:struct:__anon8
+napi_external	node_modules/node-addon-api/src/node_api_types.h	/^  napi_external,$/;"	e	line:44	enum:__anon4
+napi_fatal_error	node_modules/node-addon-api/src/node_api.cc	/^NAPI_NO_RETURN void napi_fatal_error(const char* location,$/;"	f	line:985
+napi_fatal_exception	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_fatal_exception(napi_env env, napi_value err) {$/;"	f	line:975
+napi_finalize	node_modules/node-addon-api/src/node_api_types.h	/^typedef void (*napi_finalize)(napi_env env,$/;"	t	line:78
+napi_float32_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_float32_array,$/;"	e	line:55	enum:__anon5
+napi_float64_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_float64_array,$/;"	e	line:56	enum:__anon5
+napi_function	node_modules/node-addon-api/src/node_api_types.h	/^  napi_function,$/;"	e	line:43	enum:__anon4
+napi_function_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_function_expected,$/;"	e	line:65	enum:__anon6
+napi_generic_failure	node_modules/node-addon-api/src/node_api_types.h	/^  napi_generic_failure,$/;"	e	line:69	enum:__anon6
+napi_get_and_clear_last_exception	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_and_clear_last_exception(napi_env env,$/;"	f	line:2958
+napi_get_array_length	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_array_length(napi_env env,$/;"	f	line:1536
+napi_get_arraybuffer_info	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_arraybuffer_info(napi_env env,$/;"	f	line:3141
+napi_get_boolean	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_boolean(napi_env env, bool value, napi_value* result) {$/;"	f	line:1717
+napi_get_buffer_info	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_buffer_info(napi_env env,$/;"	f	line:3061
+napi_get_cb_info	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_cb_info($/;"	f	line:1931
+napi_get_dataview_info	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_dataview_info(napi_env env,$/;"	f	line:3334
+napi_get_element	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_element(napi_env env,$/;"	f	line:1402
+napi_get_global	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_global(napi_env env, napi_value* result) {$/;"	f	line:2010
+napi_get_last_error_info	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_last_error_info(napi_env env,$/;"	f	line:952
+napi_get_named_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_named_property(napi_env env,$/;"	f	line:1334
+napi_get_new_target	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_new_target(napi_env env,$/;"	f	line:1962
+napi_get_node_version	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_node_version(napi_env env,$/;"	f	line:3376
+napi_get_null	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_null(napi_env env, napi_value* result) {$/;"	f	line:1920
+napi_get_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_property(napi_env env,$/;"	f	line:1219
+napi_get_property_names	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_property_names(napi_env env,$/;"	f	line:1153
+napi_get_prototype	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_prototype(napi_env env,$/;"	f	line:1568
+napi_get_reference_value	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_reference_value(napi_env env,$/;"	f	line:2620
+napi_get_typedarray_info	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_typedarray_info(napi_env env,$/;"	f	line:3237
+napi_get_undefined	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_undefined(napi_env env, napi_value* result) {$/;"	f	line:1910
+napi_get_value_bool	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_bool(napi_env env, napi_value value, bool* result) {$/;"	f	line:2204
+napi_get_value_double	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_double(napi_env env,$/;"	f	line:2106
+napi_get_value_external	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_external(napi_env env,$/;"	f	line:2518
+napi_get_value_int32	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_int32(napi_env env,$/;"	f	line:2123
+napi_get_value_int64	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_int64(napi_env env,$/;"	f	line:2171
+napi_get_value_string_latin1	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_string_latin1(napi_env env,$/;"	f	line:2227
+napi_get_value_string_utf16	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_string_utf16(napi_env env,$/;"	f	line:2299
+napi_get_value_string_utf8	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_string_utf8(napi_env env,$/;"	f	line:2263
+napi_get_value_uint32	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_value_uint32(napi_env env,$/;"	f	line:2147
+napi_get_version	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_get_version(napi_env env, uint32_t* result) {$/;"	f	line:3369
+napi_handle_scope	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_handle_scope__ *napi_handle_scope;$/;"	t	line:16	typeref:struct:napi_handle_scope__
+napi_handle_scope_mismatch	node_modules/node-addon-api/src/node_api_types.h	/^  napi_handle_scope_mismatch$/;"	e	line:73	enum:__anon6
+napi_has_element	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_has_element(napi_env env,$/;"	f	line:1381
+napi_has_named_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_has_named_property(napi_env env,$/;"	f	line:1310
+napi_has_own_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_has_own_property(napi_env env,$/;"	f	line:1265
+napi_has_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_has_property(napi_env env,$/;"	f	line:1196
+napi_instanceof	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_instanceof(napi_env env,$/;"	f	line:2739
+napi_int16_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_int16_array,$/;"	e	line:51	enum:__anon5
+napi_int32_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_int32_array,$/;"	e	line:53	enum:__anon5
+napi_int8_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_int8_array,$/;"	e	line:48	enum:__anon5
+napi_invalid_arg	node_modules/node-addon-api/src/node_api_types.h	/^  napi_invalid_arg,$/;"	e	line:61	enum:__anon6
+napi_is_array	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_array(napi_env env, napi_value value, bool* result) {$/;"	f	line:1525
+napi_is_arraybuffer	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_arraybuffer(napi_env env, napi_value value, bool* result) {$/;"	f	line:3080
+napi_is_buffer	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_buffer(napi_env env, napi_value value, bool* result) {$/;"	f	line:3052
+napi_is_dataview	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_dataview(napi_env env, napi_value value, bool* result) {$/;"	f	line:3323
+napi_is_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_error(napi_env env, napi_value value, bool* result) {$/;"	f	line:2093
+napi_is_exception_pending	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_exception_pending(napi_env env, bool* result) {$/;"	f	line:2948
+napi_is_promise	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_promise(napi_env env,$/;"	f	line:3612
+napi_is_typedarray	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_is_typedarray(napi_env env, napi_value value, bool* result) {$/;"	f	line:3165
+napi_make_callback	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_make_callback(napi_env env,$/;"	f	line:2904
+napi_module	node_modules/node-addon-api/src/node_api.h	/^} napi_module;$/;"	t	line:58	typeref:struct:__anon10
+napi_module_register	node_modules/node-addon-api/src/node_api.cc	/^void napi_module_register(napi_module* mod) {$/;"	f	line:902
+napi_module_register_cb	node_modules/node-addon-api/src/node_api.cc	/^void napi_module_register_cb(v8::Local<v8::Object> exports,$/;"	f	line:874	namespace:__anon1
+napi_name_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_name_expected,$/;"	e	line:64	enum:__anon6
+napi_new_instance	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_new_instance(napi_env env,$/;"	f	line:2712
+napi_node_version	node_modules/node-addon-api/src/node_api_types.h	/^} napi_node_version;$/;"	t	line:113	typeref:struct:__anon9
+napi_null	node_modules/node-addon-api/src/node_api_types.h	/^  napi_null,$/;"	e	line:37	enum:__anon4
+napi_number	node_modules/node-addon-api/src/node_api_types.h	/^  napi_number,$/;"	e	line:39	enum:__anon4
+napi_number_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_number_expected,$/;"	e	line:66	enum:__anon6
+napi_object	node_modules/node-addon-api/src/node_api_types.h	/^  napi_object,$/;"	e	line:42	enum:__anon4
+napi_object_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_object_expected,$/;"	e	line:62	enum:__anon6
+napi_ok	node_modules/node-addon-api/src/node_api_types.h	/^  napi_ok,$/;"	e	line:60	enum:__anon6
+napi_open_escapable_handle_scope	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_open_escapable_handle_scope($/;"	f	line:2661
+napi_open_handle_scope	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_open_handle_scope(napi_env env, napi_handle_scope* result) {$/;"	f	line:2635
+napi_pending_exception	node_modules/node-addon-api/src/node_api_types.h	/^  napi_pending_exception,$/;"	e	line:70	enum:__anon6
+napi_property_attributes	node_modules/node-addon-api/src/node_api_types.h	/^} napi_property_attributes;$/;"	t	line:32	typeref:enum:__anon3
+napi_property_descriptor	node_modules/node-addon-api/src/node_api_types.h	/^} napi_property_descriptor;$/;"	t	line:99	typeref:struct:__anon7
+napi_queue_async_work	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_queue_async_work(napi_env env, napi_async_work work) {$/;"	f	line:3550
+napi_ref	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_ref__ *napi_ref;$/;"	t	line:15	typeref:struct:napi_ref__
+napi_reference_ref	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_reference_ref(napi_env env, napi_ref ref, uint32_t* result) {$/;"	f	line:2576
+napi_reference_unref	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_reference_unref(napi_env env, napi_ref ref, uint32_t* result) {$/;"	f	line:2596
+napi_reject_deferred	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_reject_deferred(napi_env env,$/;"	f	line:3606
+napi_remove_wrap	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_remove_wrap(napi_env env, napi_value obj, void** result) {$/;"	f	line:2464
+napi_resolve_deferred	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_resolve_deferred(napi_env env,$/;"	f	line:3600
+napi_run_script	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_run_script(napi_env env,$/;"	f	line:3624
+napi_set_element	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_set_element(napi_env env,$/;"	f	line:1360
+napi_set_last_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_set_last_error(napi_env env, napi_status error_code,$/;"	f	line:943	file:
+napi_set_named_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_set_named_property(napi_env env,$/;"	f	line:1286
+napi_set_property	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_set_property(napi_env env,$/;"	f	line:1173
+napi_static	node_modules/node-addon-api/src/node_api_types.h	/^  napi_static = 1 << 10,$/;"	e	line:31	enum:__anon3
+napi_status	node_modules/node-addon-api/src/node_api_types.h	/^} napi_status;$/;"	t	line:74	typeref:enum:__anon6
+napi_strict_equals	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_strict_equals(napi_env env,$/;"	f	line:1552
+napi_string	node_modules/node-addon-api/src/node_api_types.h	/^  napi_string,$/;"	e	line:40	enum:__anon4
+napi_string_expected	node_modules/node-addon-api/src/node_api_types.h	/^  napi_string_expected,$/;"	e	line:63	enum:__anon6
+napi_symbol	node_modules/node-addon-api/src/node_api_types.h	/^  napi_symbol,$/;"	e	line:41	enum:__anon4
+napi_throw	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_throw(napi_env env, napi_value error) {$/;"	f	line:2024
+napi_throw_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_throw_error(napi_env env,$/;"	f	line:2036
+napi_throw_range_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_throw_range_error(napi_env env,$/;"	f	line:2074
+napi_throw_type_error	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_throw_type_error(napi_env env,$/;"	f	line:2055
+napi_typedarray_type	node_modules/node-addon-api/src/node_api_types.h	/^} napi_typedarray_type;$/;"	t	line:57	typeref:enum:__anon5
+napi_typeof	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_typeof(napi_env env,$/;"	f	line:1869
+napi_uint16_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_uint16_array,$/;"	e	line:52	enum:__anon5
+napi_uint32_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_uint32_array,$/;"	e	line:54	enum:__anon5
+napi_uint8_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_uint8_array,$/;"	e	line:49	enum:__anon5
+napi_uint8_clamped_array	node_modules/node-addon-api/src/node_api_types.h	/^  napi_uint8_clamped_array,$/;"	e	line:50	enum:__anon5
+napi_undefined	node_modules/node-addon-api/src/node_api_types.h	/^  napi_undefined,$/;"	e	line:36	enum:__anon4
+napi_unwrap	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_unwrap(napi_env env, napi_value obj, void** result) {$/;"	f	line:2456
+napi_value	node_modules/node-addon-api/src/node_api_types.h	/^typedef struct napi_value__ *napi_value;$/;"	t	line:14	typeref:struct:napi_value__
+napi_valuetype	node_modules/node-addon-api/src/node_api_types.h	/^} napi_valuetype;$/;"	t	line:45	typeref:enum:__anon4
+napi_wrap	node_modules/node-addon-api/src/node_api.cc	/^napi_status napi_wrap(napi_env env,$/;"	f	line:2395
+napi_wrap_name	node_modules/node-addon-api/src/node_api.cc	/^const char napi_wrap_name[] = "N-API Wrapper";$/;"	m	line:742	namespace:__anon1::v8impl	file:
+napi_writable	node_modules/node-addon-api/src/node_api_types.h	/^  napi_writable = 1 << 0,$/;"	e	line:25	enum:__anon3
+nm_filename	node_modules/node-addon-api/src/node_api.h	/^  const char* nm_filename;$/;"	m	line:53	struct:__anon10
+nm_flags	node_modules/node-addon-api/src/node_api.h	/^  unsigned int nm_flags;$/;"	m	line:52	struct:__anon10
+nm_modname	node_modules/node-addon-api/src/node_api.h	/^  const char* nm_modname;$/;"	m	line:55	struct:__anon10
+nm_priv	node_modules/node-addon-api/src/node_api.h	/^  void* nm_priv;$/;"	m	line:56	struct:__anon10
+nm_register_func	node_modules/node-addon-api/src/node_api.h	/^  napi_addon_register_func nm_register_func;$/;"	m	line:54	struct:__anon10
+nm_version	node_modules/node-addon-api/src/node_api.h	/^  int nm_version;$/;"	m	line:51	struct:__anon10
+node	node_modules/node-addon-api/src/node_internals.cc	/^namespace node {$/;"	n	line:18	file:
+node	node_modules/node-addon-api/src/node_internals.h	/^namespace node {$/;"	n	line:71
+node	node_modules/node-addon-api/src/util-inl.h	/^namespace node {$/;"	n	line:7
+open_handle_scopes	node_modules/node-addon-api/src/node_api.cc	/^  int open_handle_scopes = 0;$/;"	m	line:44	struct:napi_env__	file:
+operator !=	node_modules/node-addon-api/napi-inl.h	/^inline bool Reference<T>::operator !=(const Reference<T> &other) const {$/;"	f	line:2226	class:Napi::Reference
+operator !=	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::operator !=(const Value& other) const {$/;"	f	line:328	class:Napi::Value
+operator ()	node_modules/node-addon-api/napi-inl.h	/^inline Napi::Value FunctionReference::operator ()($/;"	f	line:2476	class:Napi::FunctionReference
+operator ()	node_modules/node-addon-api/napi-inl.h	/^inline Value Function::operator ()(const std::initializer_list<napi_value>& args) const {$/;"	f	line:1714	class:Napi::Function
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline AsyncContext& AsyncContext::operator =(AsyncContext&& other) {$/;"	f	line:3533	class:Napi::AsyncContext
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker& AsyncWorker::operator =(AsyncWorker&& other) {$/;"	f	line:3647	class:Napi::AsyncWorker
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline Error& Error::operator =(Error& other) {$/;"	f	line:2035	class:Napi::Error
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline Error& Error::operator =(Error&& other) {$/;"	f	line:2027	class:Napi::Error
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference& FunctionReference::operator =(FunctionReference&& other) {$/;"	f	line:2471	class:Napi::FunctionReference
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline FunctionReference& FunctionReference::operator =(Reference<Function>&& other) {$/;"	f	line:2462	class:Napi::FunctionReference
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline Object::PropertyLValue<Key>& Object::PropertyLValue<Key>::operator =(ValueType value) {$/;"	f	line:900	class:Napi::Object::PropertyLValue
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference& ObjectReference::operator =(ObjectReference&& other) {$/;"	f	line:2343	class:Napi::ObjectReference
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline ObjectReference& ObjectReference::operator =(Reference<Object>&& other) {$/;"	f	line:2334	class:Napi::ObjectReference
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>& Reference<T>::operator =(Reference<T>&& other) {$/;"	f	line:2189	class:Napi::Reference
+operator =	node_modules/node-addon-api/napi-inl.h	/^inline ThreadSafeFunction& ThreadSafeFunction::operator =($/;"	f	line:3935	class:Napi::ThreadSafeFunction
+operator ==	node_modules/node-addon-api/napi-inl.h	/^inline bool Reference<T>::operator ==(const Reference<T> &other) const {$/;"	f	line:2220	class:Napi::Reference
+operator ==	node_modules/node-addon-api/napi-inl.h	/^inline bool Value::operator ==(const Value& other) const {$/;"	f	line:324	class:Napi::Value
+operator T*	node_modules/node-addon-api/napi.h	/^      operator T*() { return static_cast<T*>(context); }$/;"	f	line:2000	struct:Napi::ThreadSafeFunction::ConvertibleContext
+operator Value	node_modules/node-addon-api/napi-inl.h	/^inline Object::PropertyLValue<Key>::operator Value() const {$/;"	f	line:895	class:Napi::Object::PropertyLValue
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline Object::PropertyLValue<std::string> Object::operator [](const char* utf8name) {$/;"	f	line:922	class:Napi::Object
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline Object::PropertyLValue<std::string> Object::operator [](const std::string& utf8name) {$/;"	f	line:926	class:Napi::Object
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline Object::PropertyLValue<uint32_t> Object::operator [](uint32_t index) {$/;"	f	line:930	class:Napi::Object
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline T& TypedArrayOf<T>::operator [](size_t index) {$/;"	f	line:1638	class:Napi::TypedArrayOf
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::operator [](const char* utf8name) const {$/;"	f	line:934	class:Napi::Object
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::operator [](const std::string& utf8name) const {$/;"	f	line:938	class:Napi::Object
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline Value Object::operator [](uint32_t index) const {$/;"	f	line:942	class:Napi::Object
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline const T& TypedArrayOf<T>::operator [](size_t index) const {$/;"	f	line:1643	class:Napi::TypedArrayOf
+operator []	node_modules/node-addon-api/napi-inl.h	/^inline const Value CallbackInfo::operator [](size_t index) const {$/;"	f	line:2624	class:Napi::CallbackInfo
+operator bool	node_modules/node-addon-api/napi-inl.h	/^inline Boolean::operator bool() const {$/;"	f	line:518	class:Napi::Boolean
+operator const napi_property_descriptor&	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor::operator const napi_property_descriptor&() const {$/;"	f	line:2869	class:Napi::PropertyDescriptor
+operator const napi_property_descriptor&	node_modules/node-addon-api/napi.h	/^    operator const napi_property_descriptor&() const { return _desc; }$/;"	f	line:1538	class:Napi::ClassPropertyDescriptor
+operator double	node_modules/node-addon-api/napi-inl.h	/^inline Number::operator double() const {$/;"	f	line:562	class:Napi::Number
+operator float	node_modules/node-addon-api/napi-inl.h	/^inline Number::operator float() const {$/;"	f	line:558	class:Napi::Number
+operator int32_t	node_modules/node-addon-api/napi-inl.h	/^inline Number::operator int32_t() const {$/;"	f	line:546	class:Napi::Number
+operator int64_t	node_modules/node-addon-api/napi-inl.h	/^inline Number::operator int64_t() const {$/;"	f	line:554	class:Napi::Number
+operator napi_async_context	node_modules/node-addon-api/napi-inl.h	/^inline AsyncContext::operator napi_async_context() const {$/;"	f	line:3541	class:Napi::AsyncContext
+operator napi_async_work	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::operator napi_async_work() const {$/;"	f	line:3659	class:Napi::AsyncWorker
+operator napi_callback_scope	node_modules/node-addon-api/napi-inl.h	/^inline CallbackScope::operator napi_callback_scope() const {$/;"	f	line:3488	class:Napi::CallbackScope
+operator napi_env	node_modules/node-addon-api/napi-inl.h	/^inline Env::operator napi_env() const {$/;"	f	line:268	class:Napi::Env
+operator napi_escapable_handle_scope	node_modules/node-addon-api/napi-inl.h	/^inline EscapableHandleScope::operator napi_escapable_handle_scope() const {$/;"	f	line:3452	class:Napi::EscapableHandleScope
+operator napi_handle_scope	node_modules/node-addon-api/napi-inl.h	/^inline HandleScope::operator napi_handle_scope() const {$/;"	f	line:3427	class:Napi::HandleScope
+operator napi_property_descriptor&	node_modules/node-addon-api/napi-inl.h	/^inline PropertyDescriptor::operator napi_property_descriptor&() {$/;"	f	line:2865	class:Napi::PropertyDescriptor
+operator napi_property_descriptor&	node_modules/node-addon-api/napi.h	/^    operator napi_property_descriptor&() { return _desc; }$/;"	f	line:1537	class:Napi::ClassPropertyDescriptor
+operator napi_ref	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>::operator napi_ref() const {$/;"	f	line:2215	class:Napi::Reference
+operator napi_value	node_modules/node-addon-api/napi-inl.h	/^inline Value::operator napi_value() const {$/;"	f	line:320	class:Napi::Value
+operator std::string	node_modules/node-addon-api/napi-inl.h	/^inline String::operator std::string() const {$/;"	f	line:719	class:Napi::String
+operator std::u16string	node_modules/node-addon-api/napi-inl.h	/^inline String::operator std::u16string() const {$/;"	f	line:723	class:Napi::String
+operator uint32_t	node_modules/node-addon-api/napi-inl.h	/^inline Number::operator uint32_t() const {$/;"	f	line:550	class:Napi::Number
+override	node_modules/node-addon-api/napi.h	/^    const char* what() const NAPI_NOEXCEPT override;$/;"	m	line:1304	class:Napi::Error
+patch	node_modules/node-addon-api/src/node_api_types.h	/^  uint32_t patch;$/;"	m	line:111	struct:__anon9
+release	node_modules/node-addon-api/src/node_api_types.h	/^  const char* release;$/;"	m	line:112	struct:__anon9
+reserved	node_modules/node-addon-api/src/node_api.h	/^  void* reserved[4];$/;"	m	line:57	struct:__anon10
+scope	node_modules/node-addon-api/src/node_api.cc	/^  v8::EscapableHandleScope scope;$/;"	m	line:236	class:__anon1::v8impl::EscapableHandleScopeWrapper	file:
+scope	node_modules/node-addon-api/src/node_api.cc	/^  v8::HandleScope scope;$/;"	m	line:214	class:__anon1::v8impl::HandleScopeWrapper	file:
+set_error_code	node_modules/node-addon-api/src/node_api.cc	/^static napi_status set_error_code(napi_env env,$/;"	f	line:1753	file:
+setter	node_modules/node-addon-api/src/node_api.cc	/^  napi_callback  setter;$/;"	m	line:512	struct:__anon1::v8impl::CallbackBundle	file:
+setter	node_modules/node-addon-api/src/node_api_types.h	/^  napi_callback setter;$/;"	m	line:94	struct:__anon7
+setterCallback	node_modules/node-addon-api/napi-inl.h	/^  Setter setterCallback;$/;"	m	line:228	struct:Napi::details::AccessorCallbackData
+setterCallback	node_modules/node-addon-api/napi.h	/^      TSetterCallback setterCallback;$/;"	m	line:1691	struct:Napi::ObjectWrap::AccessorCallbackData
+sizeof	node_modules/node-addon-api/napi.h	/^static_assert(sizeof(char16_t) == sizeof(wchar_t), "Size mismatch between char16_t and wchar_t");$/;"	v	line:19
+sizeof	node_modules/node-addon-api/src/node_api.cc	/^static_assert(sizeof(v8::Local<v8::Value>) == sizeof(napi_value),$/;"	m	line:267	namespace:__anon1::v8impl	file:
+trigger_async_id	node_modules/node-addon-api/src/node_internals.h	/^  node::async_id trigger_async_id;$/;"	m	line:95	struct:node::async_context
+trigger_fatal_exception	node_modules/node-addon-api/src/node_api.cc	/^static inline void trigger_fatal_exception($/;"	f	line:292	namespace:__anon1::v8impl
+tsfn	node_modules/node-addon-api/napi-inl.h	/^  napi_threadsafe_function* tsfn;$/;"	m	line:198	struct:Napi::details::ThreadSafeFinalize
+unknown_array_type	node_modules/node-addon-api/napi.h	/^    static const napi_typedarray_type unknown_array_type = static_cast<napi_typedarray_type>(-1);$/;"	m	line:806	class:Napi::TypedArray
+utf8name	node_modules/node-addon-api/src/node_api_types.h	/^  const char* utf8name;$/;"	m	line:89	struct:__anon7
+uvimpl	node_modules/node-addon-api/src/node_api.cc	/^namespace uvimpl {$/;"	n	line:3403	namespace:__anon2	file:
+v8	node_modules/node-addon-api/src/node_internals.h	/^namespace v8 {$/;"	n	line:144
+v8impl	node_modules/node-addon-api/src/node_api.cc	/^namespace v8impl {$/;"	n	line:183	namespace:__anon1	file:
+value	node_modules/node-addon-api/src/node_api_types.h	/^  napi_value value;$/;"	m	line:95	struct:__anon7
+vf_fallback	node_modules/node-addon-api/napi-inl.h	/^struct vf_fallback {$/;"	s	line:833	namespace:Napi::details
+vf_number	node_modules/node-addon-api/napi-inl.h	/^struct vf_number {$/;"	s	line:796	namespace:Napi::details
+vf_number	node_modules/node-addon-api/napi-inl.h	/^struct vf_number<bool> {$/;"	s	line:803	namespace:Napi::details
+vf_utf16_charp	node_modules/node-addon-api/napi-inl.h	/^struct vf_utf16_charp {$/;"	s	line:815	namespace:Napi::details
+vf_utf16_string	node_modules/node-addon-api/napi-inl.h	/^struct vf_utf16_string {$/;"	s	line:826	namespace:Napi::details
+vf_utf8_charp	node_modules/node-addon-api/napi-inl.h	/^struct vf_utf8_charp {$/;"	s	line:809	namespace:Napi::details
+vf_utf8_string	node_modules/node-addon-api/napi-inl.h	/^struct vf_utf8_string {$/;"	s	line:820	namespace:Napi::details
+wrap_template	node_modules/node-addon-api/src/node_api.cc	/^  v8::Persistent<v8::ObjectTemplate> wrap_template;$/;"	m	line:41	struct:napi_env__	file:
+~AsyncContext	node_modules/node-addon-api/napi-inl.h	/^inline AsyncContext::~AsyncContext() {$/;"	f	line:3519	class:Napi::AsyncContext
+~AsyncWorker	node_modules/node-addon-api/napi-inl.h	/^inline AsyncWorker::~AsyncWorker() {$/;"	f	line:3625	class:Napi::AsyncWorker
+~CallbackInfo	node_modules/node-addon-api/napi-inl.h	/^inline CallbackInfo::~CallbackInfo() {$/;"	f	line:2599	class:Napi::CallbackInfo
+~CallbackScope	node_modules/node-addon-api/napi-inl.h	/^inline CallbackScope::~CallbackScope() {$/;"	f	line:3484	class:Napi::CallbackScope
+~EscapableHandleScope	node_modules/node-addon-api/napi-inl.h	/^inline EscapableHandleScope::~EscapableHandleScope() {$/;"	f	line:3448	class:Napi::EscapableHandleScope
+~Finalizer	node_modules/node-addon-api/src/node_api.cc	/^  ~Finalizer() {$/;"	f	line:328	class:__anon1::v8impl::Finalizer
+~HandleScope	node_modules/node-addon-api/napi-inl.h	/^inline HandleScope::~HandleScope() {$/;"	f	line:3423	class:Napi::HandleScope
+~Reference	node_modules/node-addon-api/napi-inl.h	/^inline Reference<T>::~Reference() {$/;"	f	line:2170	class:Napi::Reference
+~Reference	node_modules/node-addon-api/src/node_api.cc	/^  ~Reference() {$/;"	f	line:386	class:__anon1::v8impl::Reference	file:
+~TryCatch	node_modules/node-addon-api/src/node_api.cc	/^  ~TryCatch() {$/;"	f	line:483	class:__anon1::v8impl::TryCatch
+~Work	node_modules/node-addon-api/src/node_api.cc	/^  ~Work() { }$/;"	f	line:3438	class:__anon2::uvimpl::Work	file:
+~napi_env__	node_modules/node-addon-api/src/node_api.cc	/^  ~napi_env__() {$/;"	f	line:33	struct:napi_env__

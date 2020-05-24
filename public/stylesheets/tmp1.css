@@ -1,0 +1,46 @@
+#firstline{
+	font: normal normal normal 36px/1.4em droid-serif-w01-regular,droid-serif-w02-regular,droid-serif-w10-regular,serif;
+	pointer-events: auto;
+	letter-spacing: normal;
+	line-height: 1.2em;
+	text-align: center;
+	font-size: 30px;
+	font-family: wfont_26357d_f2a5649d47094855afff9c5e1a168f7f,wf_f2a5649d47094855afff9c5e1,orig_old_standard_tt_bold;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: 0 0;
+	font-weight: bold;
+}
+#secondline{
+	font: normal normal normal 14px/1.4em 'open sans',sans-serif;
+	pointer-events: auto;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: 0 0;
+	font-family: open sans condensed,sans-serif;
+	font-size: 23px;
+	font-weight: lighter;
+}
+#mybtn{
+	text-align: center;	
+    margin-top: 10px;
+}
+#myheader{
+	background-image: url(img/roastduck.jpg);
+	background-size:cover;
+}
+
+img {
+	object-fit: cover;
+}

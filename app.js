@@ -20,18 +20,18 @@ var commentRoutes = require("./routes/comments"),
 
 // CREATE A DATABASE
 // connect to local db
-//mongoose.connect("mongodb://localhost:27017/FoodiesZone", {useNewUrlParser: true, useUnifiedTopology: true}); 
+mongoose.connect("mongodb://localhost:27017/FoodiesZone", {useNewUrlParser: true, useUnifiedTopology: true}); 
 // connect to MongoDB Atlas
 const password = process.env.MONGOOSEPASSWORD;
-mongoose.connect("mongodb+srv://Weiqi:"+password+"@cluster0-oykae.mongodb.net/test?retryWrites=true&w=majority", {
-		useNewUrlParser: true,
-		useCreateIndex: true,
-		useUnifiedTopology: true
-	}).then(() => {
-		console.log("connected to MongoDB Atlas!");
-	}).catch(err => {
-		console.log("ERROR", err.message);
-	});
+// mongoose.connect("mongodb+srv://Weiqi:"+password+"@cluster0-oykae.mongodb.net/test?retryWrites=true&w=majority", {
+// 		useNewUrlParser: true,
+// 		useCreateIndex: true,
+// 		useUnifiedTopology: true
+// 	}).then(() => {
+// 		console.log("connected to MongoDB Atlas!");
+// 	}).catch(err => {
+// 		console.log("ERROR", err.message);
+// 	});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public")); // is safer to add __dirname
@@ -39,7 +39,7 @@ app.use(methodOverride("_method"));
 app.use(flash()); // must be put before passport configuration
 // seedDB();
 
-// enabel moment in all of view files via variable named moment.
+// enable moment in all of view files via variable named moment.
 app.locals.moment = require("moment");
 
 // PASSPORT CONFIGURATION

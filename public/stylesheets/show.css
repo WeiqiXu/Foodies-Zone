@@ -1,0 +1,92 @@
+#mytitle{
+	box-sizing: border-box;
+	font-style: inherit;
+	vertical-align: baseline;
+	white-space: normal;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: 0 0;
+	font-family: "proxima-nova-condensed","Arial Narrow",sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 1.1;
+	font-size: 36px;
+	margin: 12px 0 10px;
+	color: #231f20;
+	text-align: center;	
+}
+#recipetitle{
+	text-align: center;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	line-height: 15px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	vertical-align: baseline;
+	white-space: normal;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: 0 0;
+	transition: all .2s ease-in-out;
+	font-weight: 700;
+	color: #8c8c8d;
+	text-decoration: none;
+}
+#author{
+	line-height: 1.6;
+color: #8c8c8d;
+text-align: center;
+box-sizing: border-box;
+font-family: inherit;
+font-size: 100%;
+font-style: inherit;
+vertical-align: baseline;
+white-space: normal;
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+background: 0 0;
+font-weight: 700;
+}
+.mybtn {
+    color: white;
+    background-color: #e7e7e7;
+    padding: 0px 1em;
+    width:137px;
+    height: 25px;
+    border: 0px solid black;
+    margin-left: 40px;
+	font-size:16px;
+	text-align:center;
+}
+#btn1{
+	position:absolute;
+	top:0px;
+}
+#btn2{
+	position:absolute;
+	top:40px;
+}
+#btn3{
+	position:absolute;
+	top:80px;
+}
+
+.mybtn:hover {
+    background-color: #2579d1;
+}
+
+.mybtn:focus {
+    background-color: #00ff00;
+}
+
+
+.mybtn:active {
+    background-color: rgb(222, 192, 222);
+}
